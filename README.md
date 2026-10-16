@@ -1,18 +1,18 @@
-﻿# doc-guard
+# doc-guard
 
 [![CI](https://github.com/MaatheusPolli/doc-guard/actions/workflows/ci.yml/badge.svg)](https://github.com/MaatheusPolli/doc-guard/actions/workflows/ci.yml)
-[![license](https://img.shields.io/badge/license-MIT-blue.svg)](./LICENSE)
+[![Licença: MIT pessoal + comercial](https://img.shields.io/badge/licen%C3%A7a-MIT%20pessoal%20%2B%20comercial-blue.svg)](LICENSE)
 
-ValidaÃ§Ã£o, formataÃ§Ã£o e geraÃ§Ã£o de documentos brasileiros em TypeScript:
-**CPF**, **CNPJ** (inclusive o novo **CNPJ alfanumÃ©rico** de 2026) e **InscriÃ§Ã£o Estadual das 27 UFs**.
+Validação, formatação e geração de documentos brasileiros em TypeScript:
+**CPF**, **CNPJ** (inclusive o novo **CNPJ alfanumérico** de 2026) e **Inscrição Estadual das 27 UFs**.
 
-- Zero dependÃªncias de runtime, ESM + CJS + `.d.ts`, Node e browser.
+- Zero dependências de runtime, ESM + CJS + `.d.ts`, Node e browser.
 - Tree-shakeable: `@matheuspolli/doc-guard/cpf` sozinho tem **< 1 KB gzip**.
-- `validate` aceita valores com ou sem mÃ¡scara e nunca lanÃ§a; `assertValid` lanÃ§a `InvalidDocumentError`.
-- `generate` com `seed` para massa de teste reprodutÃ­vel.
+- `validate` aceita valores com ou sem máscara e nunca lança; `assertValid` lança `InvalidDocumentError`.
+- `generate` com `seed` para massa de teste reprodutível.
 - 1.000+ testes: exemplos oficiais do Sintegra, IEs de 250 empresas reais, property-based com fast-check e 100% das linhas cobertas.
 
-## InstalaÃ§Ã£o
+## Instalação
 
 ```bash
 npm install @matheuspolli/doc-guard
@@ -31,19 +31,19 @@ cd doc-guard && npm install && npm run build
 import { cpf, cnpj, ie, detect } from '@matheuspolli/doc-guard';
 
 cpf.validate('529.982.247-25'); // true
-cpf.validate('111.111.111-11'); // false (sequÃªncia repetida)
+cpf.validate('111.111.111-11'); // false (sequência repetida)
 cpf.format('52998224725'); // '529.982.247-25'
 cpf.unformat('529.982.247-25'); // '52998224725'
 cpf.generate({ seed: 42, formatted: true }); // sempre o mesmo CPF
 
 cnpj.validate('11.222.333/0001-81'); // true
-cnpj.validate('12.ABC.345/01DE-35'); // true  â† alfanumÃ©rico
+cnpj.validate('12.ABC.345/01DE-35'); // true  ← alfanumérico
 cnpj.validate('12.ABC.345/01DE-35', { alphanumeric: false }); // false
 cnpj.generate({ alphanumeric: true, formatted: true });
 
 ie.validate('SP', '110.042.490.114'); // true
 ie.validate('mg', '062.307.904/0081'); // true (UF case-insensitive)
-ie.validateAny('06000001-5'); // ['CE', 'PB', â€¦] â€” todas as UFs compatÃ­veis
+ie.validateAny('06000001-5'); // ['CE', 'PB', …] — todas as UFs compatíveis
 ie.format('RS', '2243658792'); // '224/3658792'
 ie.generate('PR', { seed: 1 });
 
@@ -53,10 +53,10 @@ detect('110.042.490.114'); // 'ie'
 detect('123'); // null
 ```
 
-### Importando sÃ³ o que precisa
+### Importando só o que precisa
 
 ```ts
-import { validate } from '@matheuspolli/doc-guard/cpf'; // nÃ£o carrega CNPJ nem as 27 regras de IE
+import { validate } from '@matheuspolli/doc-guard/cpf'; // não carrega CNPJ nem as 27 regras de IE
 import { validate as validateCnpj } from '@matheuspolli/doc-guard/cnpj';
 import { validate as validateIe } from '@matheuspolli/doc-guard/ie';
 ```
@@ -73,34 +73,34 @@ try {
 }
 ```
 
-## CNPJ alfanumÃ©rico (2026)
+## CNPJ alfanumérico (2026)
 
-A partir de julho de 2026 (IN RFB nÂº 2.229/2024), as 12 primeiras posiÃ§Ãµes do CNPJ
-passam a aceitar letras `Aâ€“Z`. Os dois dÃ­gitos verificadores continuam numÃ©ricos e sÃ£o
-calculados pelo mesmo mÃ³dulo 11, mas cada caractere vale **cÃ³digo ASCII âˆ’ 48**
-(`0â€“9` â†’ 0â€“9, `A` â†’ 17, â€¦, `Z` â†’ 42). Por isso o cÃ¡lculo Ã© retrocompatÃ­vel: para bases
-numÃ©ricas o resultado Ã© idÃªntico ao algoritmo clÃ¡ssico â€” e o doc-guard testa isso.
+A partir de julho de 2026 (IN RFB nº 2.229/2024), as 12 primeiras posições do CNPJ
+passam a aceitar letras `A–Z`. Os dois dígitos verificadores continuam numéricos e são
+calculados pelo mesmo módulo 11, mas cada caractere vale **código ASCII − 48**
+(`0–9` → 0–9, `A` → 17, …, `Z` → 42). Por isso o cálculo é retrocompatível: para bases
+numéricas o resultado é idêntico ao algoritmo clássico — e o doc-guard testa isso.
 
-ImplementaÃ§Ãµes que fazem `value.replace(/\D/g, '')` antes de validar **quebram** com o novo formato.
+Implementações que fazem `value.replace(/\D/g, '')` antes de validar **quebram** com o novo formato.
 
-## Suporte por UF (InscriÃ§Ã£o Estadual)
+## Suporte por UF (Inscrição Estadual)
 
-| UF  | Tamanho    | MÃ¡scara                                | ObservaÃ§Ã£o                           |
+| UF  | Tamanho    | Máscara                                | Observação                           |
 | --- | ---------- | -------------------------------------- | ------------------------------------ |
 | AC  | 13         | `##.###.###/###-##`                    | prefixo 01, 2 DVs                    |
 | AL  | 9          | `########-#`                           | prefixo 24                           |
 | AM  | 9          | `##.###.###-#`                         |                                      |
 | AP  | 9          | `##.###.###-#`                         | prefixo 03, faixas p/d               |
-| BA  | 8 ou 9     | `######-##` / `#######-##`             | mÃ³dulo 10 ou 11 conforme dÃ­gito      |
+| BA  | 8 ou 9     | `######-##` / `#######-##`             | módulo 10 ou 11 conforme dígito      |
 | CE  | 9          | `########-#`                           |                                      |
 | DF  | 13         | `##.######.###-##`                     | prefixo 07/08, 2 DVs                 |
 | ES  | 9          | `###.###.##-#`                         |                                      |
-| GO  | 9          | `##.###.###-#`                         | prefixos 10, 11, 15, 20â€“29           |
+| GO  | 9          | `##.###.###-#`                         | prefixos 10, 11, 15, 20–29           |
 | MA  | 9          | `##.###.###-#`                         | prefixo 12                           |
-| MG  | 13         | `###.###.###/####`                     | 2 DVs (soma de algarismos + mÃ³d. 11) |
+| MG  | 13         | `###.###.###/####`                     | 2 DVs (soma de algarismos + mód. 11) |
 | MS  | 9          | `##.###.###-#`                         | prefixo 28/50                        |
-| MT  | 9 a 11     | `##.###.###-#` / `##########-#`        | completa com zeros Ã  esquerda        |
-| PA  | 9          | `##-######-#`                          | prefixo 15, 75â€“79                    |
+| MT  | 9 a 11     | `##.###.###-#` / `##########-#`        | completa com zeros à esquerda        |
+| PA  | 9          | `##-######-#`                          | prefixo 15, 75–79                    |
 | PB  | 9          | `########-#`                           |                                      |
 | PE  | 9 ou 14    | `#######-##` / `##.#.###.#######-#`    | eFisco e CACEPE antigo               |
 | PI  | 9          | `#########`                            |                                      |
@@ -108,48 +108,48 @@ ImplementaÃ§Ãµes que fazem `value.replace(/\D/g, '')` antes de validar **que
 | RJ  | 8          | `##.###.##-#`                          |                                      |
 | RN  | 9 ou 10    | `##.###.###-#` / `##.#.###.###-#`      | prefixo 20                           |
 | RO  | 9 ou 14    | `###.#####-#` / `#############-#`      | formato antigo e atual               |
-| RR  | 9          | `########-#`                           | prefixo 24, mÃ³dulo 9                 |
+| RR  | 9          | `########-#`                           | prefixo 24, módulo 9                 |
 | RS  | 10         | `###/#######`                          |                                      |
 | SC  | 9          | `###.###.###`                          |                                      |
 | SE  | 9          | `########-#`                           |                                      |
 | SP  | 12 ou P+12 | `###.###.###.###` / `P-########.#/###` | inclui produtor rural                |
 | TO  | 9 ou 11    | `########-#` / `##.##.######-#`        | formato antigo com tipo 01/02/03/99  |
 
-Cada regra fica em `src/ie/rules/<uf>.ts` com o roteiro do Sintegra citado no comentÃ¡rio.
+Cada regra fica em `src/ie/rules/<uf>.ts` com o roteiro do Sintegra citado no comentário.
 
-As regras sÃ£o testadas contra duas bases:
+As regras são testadas contra duas bases:
 
 - `tests/fixtures/ie-samples.json`: exemplos oficiais dos roteiros do Sintegra e IEs reais, com a
-  origem de cada valor registrada, alÃ©m de casos invÃ¡lidos (DV alterado, tamanho errado).
+  origem de cada valor registrada, além de casos inválidos (DV alterado, tamanho errado).
 - `tests/fixtures/ie-real.json`: 250 IEs de empresas reais das 27 UFs, compiladas pelo projeto
-  [brazilian_documents](https://github.com/fidelisrafael/brazilian_documents) (MIT, Â© 2016 Rafael Fidelis).
+  [brazilian_documents](https://github.com/fidelisrafael/brazilian_documents) (MIT, © 2016 Rafael Fidelis).
 
-> **Ambiguidade:** alguns tamanhos coincidem (ex.: 11 dÃ­gitos = CPF ou IE de MT/TO).
-> `detect` prioriza CPF â†’ CNPJ â†’ IE; `ie.validateAny` devolve todas as UFs compatÃ­veis.
+> **Ambiguidade:** alguns tamanhos coincidem (ex.: 11 dígitos = CPF ou IE de MT/TO).
+> `detect` prioriza CPF → CNPJ → IE; `ie.validateAny` devolve todas as UFs compatíveis.
 
 ## Benchmark
 
-`npm run bench` (Node 22, container Linux, 1.000 documentos por iteraÃ§Ã£o):
+`npm run bench` (Node 22, container Linux, 1.000 documentos por iteração):
 
-| OperaÃ§Ã£o                           | ValidaÃ§Ãµes/s |
+| Operação                           | Validações/s |
 | ---------------------------------- | -----------: |
-| `cpf.validate`                     |  ~1,1 milhÃ£o |
-| `cnpj.validate` (50% alfanumÃ©rico) |  ~0,8 milhÃ£o |
-| `ie.validate('SP', â€¦)`             |  ~1,0 milhÃ£o |
+| `cpf.validate`                     |  ~1,1 milhão |
+| `cnpj.validate` (50% alfanumérico) |  ~0,8 milhão |
+| `ie.validate('SP', …)`             |  ~1,0 milhão |
 | `ie.validateAny` (27 regras)       |     ~128 mil |
 
-1 milhÃ£o de validaÃ§Ãµes de CPF levam menos de 1 segundo.
+1 milhão de validações de CPF levam menos de 1 segundo.
 
-## LimitaÃ§Ã£o conhecida do mÃ³dulo 11
+## Limitação conhecida do módulo 11
 
-O dÃ­gito verificador detecta qualquer alteraÃ§Ã£o nos prÃ³prios DVs, mas **nÃ£o** todo erro de
-um dÃ­gito na base: na regra "resto < 2 â†’ 0", os restos 0 e 1 geram o mesmo DV. Exemplo: os
-CPFs `704.074.412-04` e `604.074.412-04` sÃ£o ambos vÃ¡lidos. Isso Ã© uma propriedade do
-algoritmo oficial, nÃ£o da biblioteca â€” e estÃ¡ documentado nos testes.
+O dígito verificador detecta qualquer alteração nos próprios DVs, mas **não** todo erro de
+um dígito na base: na regra "resto < 2 → 0", os restos 0 e 1 geram o mesmo DV. Exemplo: os
+CPFs `704.074.412-04` e `604.074.412-04` são ambos válidos. Isso é uma propriedade do
+algoritmo oficial, não da biblioteca — e está documentado nos testes.
 
 ## API
 
-| MÃ³dulo | FunÃ§Ãµes                                                                                                                    |
+| Módulo | Funções                                                                                                                    |
 | ------ | -------------------------------------------------------------------------------------------------------------------------- |
 | `cpf`  | `validate`, `assertValid`, `format`, `unformat`, `generate`, `computeCheckDigits`                                          |
 | `cnpj` | `validate`, `assertValid`, `format`, `unformat`, `generate`, `computeCheckDigits`, `isAlphanumeric`, `charValue`           |
@@ -163,52 +163,47 @@ algoritmo oficial, nÃ£o da biblioteca â€” e estÃ¡ documentado nos teste
 ```bash
 npm install
 npm test          # testes
-npm run coverage  # cobertura (mÃ­nimo 95%)
+npm run coverage  # cobertura (mínimo 95%)
 npm run bench     # benchmark
 npm run build     # ESM + CJS + .d.ts
 npm run lint      # ESLint
 npm run typecheck # tsc --noEmit
-npm run changeset # descreve uma mudanÃ§a para o prÃ³ximo release
+npm run changeset # descreve uma mudança para o próximo release
 ```
 
 ## Estrutura
 
 ```
 src/
- â”œâ”€â”€ cpf/        validaÃ§Ã£o, formataÃ§Ã£o e geraÃ§Ã£o de CPF
- â”œâ”€â”€ cnpj/       CNPJ numÃ©rico e alfanumÃ©rico
- â”œâ”€â”€ ie/
- â”‚    â”œâ”€â”€ rules/  uma regra por UF (ac.ts â€¦ to.ts)
- â”‚    â”œâ”€â”€ registry.ts  mapa UF â†’ regra
- â”‚    â””â”€â”€ index.ts     API pÃºblica da IE
- â”œâ”€â”€ shared/     modulo11, digits, mask, random, errors
- â”œâ”€â”€ detect.ts
- â””â”€â”€ index.ts
-tests/           testes unitÃ¡rios, por UF, tabela de fixtures e property-based
-benchmarks/      benchmark de validaÃ§Ã£o
+ ├── cpf/        validação, formatação e geração de CPF
+ ├── cnpj/       CNPJ numérico e alfanumérico
+ ├── ie/
+ │    ├── rules/  uma regra por UF (ac.ts … to.ts)
+ │    ├── registry.ts  mapa UF → regra
+ │    └── index.ts     API pública da IE
+ ├── shared/     modulo11, digits, mask, random, errors
+ ├── detect.ts
+ └── index.ts
+tests/           testes unitários, por UF, tabela de fixtures e property-based
+benchmarks/      benchmark de validação
 ```
 
-PrincÃ­pios: funÃ§Ãµes puras, sem estado global; `validate` nunca lanÃ§a; uma regra de IE por
-arquivo, auditÃ¡vel contra o roteiro oficial; zero dependÃªncias de runtime.
+Princípios: funções puras, sem estado global; `validate` nunca lança; uma regra de IE por
+arquivo, auditável contra o roteiro oficial; zero dependências de runtime.
 
-## LicenÃ§a
+## Status
 
-[MIT](./LICENSE)
+Implementado e testado (37 arquivos de teste passando).
 
+Pendências conhecidas:
+
+- garantir `prettier --check` limpo e CI verde no primeiro push
 
 ## Licença
 
-### Uso Pessoal
-Este projeto é licenciado sob a **Licença MIT** para uso pessoal, educacional e não comercial.
+Este projeto usa **licença dupla**. O texto completo está em [LICENSE](LICENSE).
 
-### Uso Comercial
-Se você deseja usar este projeto comercialmente, deve obter uma licença comercial do autor.
+- **Uso pessoal, educacional e não comercial:** livre, nos termos da licença MIT (mantenha o aviso de copyright).
+- **Uso comercial:** exige licença comercial. Isso inclui usar em produto ou serviço comercial, vender acesso ou derivados, usar em atividades com fins lucrativos e implantar em empresas.
 
-**Uso comercial inclui:**
-- Incorporar em um produto comercial
-- Oferecer como serviço
-- Usar em atividades com fins lucrativos
-- Implantação empresarial
-
-**Para obter uma licença comercial:**
-Email: ma.polli@hotmail.com
+Contato para licença comercial: ma.polli@hotmail.com
