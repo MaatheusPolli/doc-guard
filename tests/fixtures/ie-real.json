@@ -1,0 +1,1013 @@
+{
+  "_source": "Inscrições de empresas reais listadas em https://github.com/fidelisrafael/brazilian_documents (licença MIT, © 2016 Rafael Fidelis), arquivos spec/documents/ie/<uf>_spec.rb, campo @valid_existent_numbers.",
+  "AC": [
+    {
+      "value": "01.966.402/850-16",
+      "company": "Exemplo Sintegra"
+    },
+    {
+      "value": "01.004.141/001-46",
+      "company": "COMPANHIA DE ELETRICIDADE DO ACRE"
+    },
+    {
+      "value": "01.007.923/001-37",
+      "company": "COMPANHIA DE SANEAMENTO DO ESTADO DO ACRE"
+    },
+    {
+      "value": "01.021.182/001-38",
+      "company": "COOP DE TRANSPORTES DE CARGAS RIO BRANCO"
+    },
+    {
+      "value": "01.018.483/001-78",
+      "company": "VIVO S/A"
+    }
+  ],
+  "AL": [
+    {
+      "value": "24.000.004-8",
+      "company": "Exemplo Sintegra"
+    },
+    {
+      "value": "24.007.177-8",
+      "company": "COMPANHIA ENERGETICA DE ALAGOAS - CEA"
+    },
+    {
+      "value": "24.209.925-4",
+      "company": "VIVO S/A"
+    },
+    {
+      "value": "24.009.599-5",
+      "company": "BANCO DO ESTADO DE ALAGOAS S A"
+    }
+  ],
+  "AM": [
+    {
+      "value": "07.000.220-7",
+      "company": "Moto Honda"
+    },
+    {
+      "value": "06.200.256-2",
+      "company": "Moto Honda"
+    },
+    {
+      "value": "04.156.817-6",
+      "company": "Moto Honda"
+    },
+    {
+      "value": "04.153.370-4",
+      "company": "Monto Honda"
+    },
+    {
+      "value": "04.135.646-2",
+      "company": "Nokia"
+    },
+    {
+      "value": "06.200.267-8",
+      "company": "Nokia"
+    },
+    {
+      "value": "07.000.848-5",
+      "company": "Nokia"
+    },
+    {
+      "value": "06.300.694-4",
+      "company": "LG"
+    },
+    {
+      "value": "06.200.685-1",
+      "company": "LG"
+    }
+  ],
+  "AP": [
+    {
+      "value": "03.012345-9",
+      "company": "Exemplo sintegra.gov"
+    },
+    {
+      "value": "03.008674-0",
+      "company": "COMPANHIA DE AGUA E ESGOTOS DO AMAPA - CAESA"
+    },
+    {
+      "value": "03.002994-0",
+      "company": "CEA - Companhia de Eletricidade do Amapá"
+    },
+    {
+      "value": "03.049903-8",
+      "company": "CINEPOLIS OPERADORA DE CINEMAS DO BRASIL LTDA"
+    },
+    {
+      "value": "03.009439-4",
+      "company": "CNA Macapá (NADSON P. P. VALENTE-ME)"
+    },
+    {
+      "value": "03.021834-9",
+      "company": "SOCIEDADE EDUCACIONAL DA AMAZONIA LTDA"
+    },
+    {
+      "value": "03.033529-9",
+      "company": "Hotel Ibis Macapá (BETRAL RENT A CAR LTDA)"
+    }
+  ],
+  "BA": [
+    {
+      "value": "001.027.389",
+      "company": "BRASKEM S/A 01/02/1974"
+    },
+    {
+      "value": "026.641.885",
+      "company": "SUZANO PAPEL E CELULOSE S.A. 22/01/1988"
+    },
+    {
+      "value": "000.478.696",
+      "company": "COMPANHIA DE ELETRICIDADE DO ESTADO DA BAHIA COELBA 28/03/1960"
+    },
+    {
+      "value": "004.539.298",
+      "company": "PIRELLI PNEUS LTDA Feira de Santana 12/02/1969"
+    },
+    {
+      "value": "001.764.543",
+      "company": "CARAIBA METAIS S/A  08/05/2013"
+    },
+    {
+      "value": "000.608.880",
+      "company": "Vale Manganes - Vale Manganes S.A"
+    },
+    {
+      "value": "001.661.097",
+      "company": "LOJAS INSINUANTE S.A. 05/10/1977"
+    },
+    {
+      "value": "063.180.808",
+      "company": "COMPANHIA DE GAS DA BAHIA BAHIAGAS 17/04/2008"
+    },
+    {
+      "value": "000.665.571",
+      "company": "Embasa - Empresa Baiana de Aguas e Saneamento Sa 31/10/1991"
+    },
+    {
+      "value": "030.262.313",
+      "company": "VERACEL CELULOSE S.A.  01/08/1991"
+    },
+    {
+      "value": "006.235.527",
+      "company": "BELGO BEKAERT ARAMES LTDA  13/12/2011"
+    },
+    {
+      "value": "001.745.616",
+      "company": "DETEN QUIMICA S/A"
+    },
+    {
+      "value": "009.871.889",
+      "company": "Monsanto do Brasil 26/08/2011"
+    },
+    {
+      "value": "063.595.400",
+      "company": "Gdk - Gdk S.A. Em Recuperacao Judicial 23/04/2004"
+    },
+    {
+      "value": "076.813.702",
+      "company": "Brasoil Manati Exploracao Petrolifera S.A. 02/04/2008"
+    },
+    {
+      "value": "123.456.63",
+      "company": "Exemplo Sintegra"
+    },
+    {
+      "value": "612.345.57",
+      "company": "Exemplo Sintegra formato antigo"
+    }
+  ],
+  "CE": [
+    {
+      "value": "06.105848-3",
+      "company": "COMPANHIA ENERGETICA DO CEARA COELCE"
+    },
+    {
+      "value": "06.102615-8",
+      "company": "MDIAS BRANCO S A INDUSTRIA E COMERCIO DE ALIMENTOS"
+    },
+    {
+      "value": "06.845128-8",
+      "company": "EMPREENDIMENTOS PAGUE MENOS S/A"
+    },
+    {
+      "value": "06.204166-5",
+      "company": "J MACEDO S/A"
+    },
+    {
+      "value": "06.916113-5",
+      "company": "GRENDENE S A"
+    },
+    {
+      "value": "06.105002-4",
+      "company": "VICUNHA TEXTIL S A"
+    },
+    {
+      "value": "06.282598-4",
+      "company": "NORSA REFRIGERANTES LTDA"
+    },
+    {
+      "value": "06.864509-0",
+      "company": "TRES CORACOES ALIMENTOS S/A"
+    },
+    {
+      "value": "06.699030-0",
+      "company": "EIT EMPRESA INDUSTRIAL TECNICA S A EM RECUPERACAO JUDICIAL"
+    },
+    {
+      "value": "06.276959-6",
+      "company": "ESMALTEC S A"
+    },
+    {
+      "value": "06.666801-8",
+      "company": "CGTF CENTRAL GERADORA TERMELETRICA FORTALEZA S A"
+    },
+    {
+      "value": "06.859236-1",
+      "company": "COMPANHIA DE AGUA E ESGOTO DO CEARA CAGECE"
+    }
+  ],
+  "DF": [
+    {
+      "value": "07.300.001.001-09",
+      "company": "Exemplo Sintegra"
+    },
+    {
+      "value": "07.441.356.001-93",
+      "company": "Oi"
+    },
+    {
+      "value": "07.326.199.001-83",
+      "company": "CENTRAIS ELETRICAS DO NORTE DO BRASIL S/A"
+    },
+    {
+      "value": "07.317.963.001-13",
+      "company": "EMPRESA BRASILEIRA DE INFRA-ESTRUTURA AEROPORTUARIA 1994"
+    },
+    {
+      "value": "07.518.585.001-66",
+      "company": "CASA DA MOEDA DO BRASIL"
+    },
+    {
+      "value": "07.326.199.001-83",
+      "company": "CENTRAIS ELETRICAS DO NORTE DO BRASIL S/A"
+    },
+    {
+      "value": "07.312.777.001-70",
+      "company": "COMPANHIA NACIONAL DE ABASTECIMENTO CONAB,"
+    },
+    {
+      "value": "08.008.770.001-67",
+      "company": "JMX IMPORTACAO E COMERCIO DE TELEFONIA LTDA"
+    }
+  ],
+  "ES": [
+    {
+      "value": "080.624.68-5",
+      "company": "A GAZETA DO ESPIRITO SANTO RADIO E TV LTDA"
+    },
+    {
+      "value": "081.989.93-8",
+      "company": "ABAV - ABATEDOURO ATILIO VIVACQUA LTDA"
+    },
+    {
+      "value": "080.507.33-6",
+      "company": "ACTA ENGENHARIA LTDA"
+    },
+    {
+      "value": "080.835.35-0",
+      "company": "ALCON COMPANHIA DE ALCOOL CONC DA BARRA"
+    },
+    {
+      "value": "080.885.69-1",
+      "company": "ARGALIT INDUSTRIA DE REVESTIMENTOS LTDA"
+    },
+    {
+      "value": "082.004.16-1",
+      "company": "COLUMBIA TRADING S.A."
+    },
+    {
+      "value": "080.081.90-8",
+      "company": "METALOSA INDUSTRIA METALURGICA S.A"
+    },
+    {
+      "value": "080.805.30-2",
+      "company": "TRIESTE VEICULOS LTDA"
+    },
+    {
+      "value": "082.156.62-0",
+      "company": "COSENTINO LATINA LTDA"
+    }
+  ],
+  "GO": [
+    {
+      "value": "10.139.969-3",
+      "company": "PANPHARMA DISTRIBUIDORA DE MEDICAMENTOS LTDA. 1990"
+    },
+    {
+      "value": "10.013.357-6",
+      "company": "SANEAMENTO DE GOIAS S/A 09/07/1984"
+    },
+    {
+      "value": "10.054.942-0",
+      "company": "CELG DISTRIBUICAO S.A. - CELG D 13/03/1989"
+    },
+    {
+      "value": "10.398.152-7",
+      "company": "HOTELARIA ACCOR BRASIL S/A 21/03/2006"
+    },
+    {
+      "value": "10.394.194-0",
+      "company": "WAL - MART BRASIL LTDA 09/11/2005"
+    },
+    {
+      "value": "10.580.075-9",
+      "company": "Ambev GO"
+    },
+    {
+      "value": "10.368.446-8",
+      "company": "PRODUTOS ROCHE QUIMICOS E FARMACEUTICOS S A"
+    },
+    {
+      "value": "10.166.488-5",
+      "company": "REFRESCOS BANDEIRANTES INDUSTRIA E COMERCIO LTDA"
+    },
+    {
+      "value": "10.349.118-0",
+      "company": "CENCOSUD BRASIL COMERCIAL LTDA - Bretas 2002"
+    },
+    {
+      "value": "10.297.851-4",
+      "company": "CENCOSUD BRASIL COMERCIAL LTDA - Bretas 1997"
+    },
+    {
+      "value": "10.506.343-6",
+      "company": "CENCOSUD BRASIL COMERCIAL LTDA - Bretas 2011"
+    },
+    {
+      "value": "10.005.565-6",
+      "company": "PRODUTOS ALIMENTICIOS ORLANDIA  1986"
+    },
+    {
+      "value": "10.314.113-8",
+      "company": "SAUDE INDUSTRIA E COMERCIO DE AGUA MINERALE SERVIÇOS LTDA 1999"
+    },
+    {
+      "value": "10.446.955-2",
+      "company": "2009"
+    }
+  ],
+  "MA": [
+    {
+      "value": "12.085.506-2",
+      "company": "PETROLEO BRASILEIRO S A PETROBRAS"
+    },
+    {
+      "value": "12.051.511-3",
+      "company": "COMPANHIA ENERGETICA DO MARANHAO CEMAR"
+    },
+    {
+      "value": "12.051.297-1",
+      "company": "PETROBRAS DISTRIBUIDORA S A"
+    },
+    {
+      "value": "12.423.718-5",
+      "company": "AMBEV S A"
+    },
+    {
+      "value": "12.190.396-6",
+      "company": "TIM CELULAR S A"
+    },
+    {
+      "value": "12.398.704-0",
+      "company": "OI MOVEL S.A"
+    },
+    {
+      "value": "12.201.918-0",
+      "company": "TELEFONICA BRASIL S A"
+    },
+    {
+      "value": "12.243.194-4",
+      "company": "CLARO S A"
+    },
+    {
+      "value": "12.298.232-0",
+      "company": "IMIFARMA PRODUTOS FARMACEUTICOS E COSMETICOS SA"
+    }
+  ],
+  "MG": [
+    {
+      "value": "062307904.00-81",
+      "company": "Exemplo sintegra"
+    },
+    {
+      "value": "702386594.00-73",
+      "company": "ALGAR AVIATION TAXI AEREO S/A"
+    },
+    {
+      "value": "001094739.00-90",
+      "company": "MINAS GERAIS EDUCACAO SA"
+    },
+    {
+      "value": "062013766.01-45",
+      "company": "BANCO MERCANTIL DO BRASIL S A"
+    },
+    {
+      "value": "062013766.00-64",
+      "company": "BANCO MERCANTIL DO BRASIL S A (baixado)"
+    },
+    {
+      "value": "062001540.00-92",
+      "company": "CIA DE FIACAO E TECIDOS CEDRO E CACHOEIRA 10/05/1927"
+    },
+    {
+      "value": "001082350.00-98",
+      "company": "M&G FIbras"
+    }
+  ],
+  "MS": [
+    {
+      "value": "28.008.461-7",
+      "company": "COPAGAZ"
+    },
+    {
+      "value": "28.090.459-2",
+      "company": "Rede Matogrossense de Televisao"
+    },
+    {
+      "value": "28.267.793-3",
+      "company": "Nucleo da Pgpm Mato Grosso do Sul"
+    },
+    {
+      "value": "28.302.733-9",
+      "company": "Unidade Mercado de Opcoes Mato Grosso do Sul"
+    },
+    {
+      "value": "28.105.553-0",
+      "company": "Energisa - Energisa Mato Grosso do Sul - Distribuidora de Energia S.A."
+    },
+    {
+      "value": "28.310.991-2",
+      "company": "Energisa - Energisa Mato Grosso do Sul - Distribuidora de Energia S.A."
+    },
+    {
+      "value": "28.204.297-0",
+      "company": "Empresa Funeraria Mato Grosso do Sul Ltda - ME"
+    },
+    {
+      "value": "28.222.911-6",
+      "company": "Correio do Estado Sa"
+    }
+  ],
+  "MT": [
+    {
+      "value": "13.000.001-9",
+      "company": "Exemplo Sintegra"
+    },
+    {
+      "value": "13.324.155-6",
+      "company": "AMAGGI EXPORTAÇÃO E IMPORTAÇÃO LTDA"
+    },
+    {
+      "value": "13.020.425-0",
+      "company": "ENERGISA MATO GROSSO - DISTRIBUIDORA DE ENERGIA S. 17/01/2000"
+    },
+    {
+      "value": "13.282.948-7",
+      "company": "FIAGRIL LTDA"
+    },
+    {
+      "value": "13.067.161-4",
+      "company": "ALL-AMERICA LATINA LOGISTICA MALHA NORTE S/A"
+    },
+    {
+      "value": "13.247.769-6",
+      "company": "AGROPECUARIA MAGGI LTDA"
+    },
+    {
+      "value": "13.156.709-8",
+      "company": "UNIMED CUIABA COOPERATIVA TRAB MEDICO"
+    },
+    {
+      "value": "13.197.865-9",
+      "company": "SUPERMERCADO MODELO LTDA"
+    },
+    {
+      "value": "13.379.950-6",
+      "company": "GCLP COMÉRCIO DE ROUPAS EIRELI"
+    },
+    {
+      "value": "13.201.070-4",
+      "company": "NABI IMPORT INDUSTRIA E COMERCIO LTDA - EPP"
+    },
+    {
+      "value": "13.371.269-9",
+      "company": "BAYER & CIA LTDA ME"
+    }
+  ],
+  "PA": [
+    {
+      "value": "15.999.999-5",
+      "company": "Exemplo Sintegra"
+    },
+    {
+      "value": "15.000.614-4",
+      "company": "Y Yamada Sa Comercio e Industria"
+    },
+    {
+      "value": "15.069.665-5",
+      "company": "ALBRAS ALUMINIO BRASILEIRO S.A"
+    },
+    {
+      "value": "15.074.998-8",
+      "company": "COMPANHIA DE SANEAMENTO DO PARA"
+    },
+    {
+      "value": "15.286.652-3",
+      "company": "Companhia Docas do Para"
+    },
+    {
+      "value": "15.050.675-9",
+      "company": "Banpara - Banco do Estado do Para S A 26/10/1961"
+    }
+  ],
+  "PB": [
+    {
+      "value": "16.015.823-0",
+      "company": "Energisa"
+    },
+    {
+      "value": "16.064.797-5",
+      "company": "Oi"
+    },
+    {
+      "value": "16.211.981-0",
+      "company": "Oi Movel"
+    },
+    {
+      "value": "16.143.665-0",
+      "company": "Tim"
+    },
+    {
+      "value": "16.000.751-8",
+      "company": "Souza Cruz"
+    },
+    {
+      "value": "16.218.715-7",
+      "company": "Ambev"
+    },
+    {
+      "value": "16.164.850-9",
+      "company": "Claro"
+    },
+    {
+      "value": "16.158.896-4",
+      "company": "Carrefour Comercio e Industria Ltda"
+    }
+  ],
+  "PE": [
+    {
+      "value": "0321418-40",
+      "company": "Exemplo sintegra,"
+    },
+    {
+      "value": "18.1.001.0000004-9",
+      "company": "Exemplo Sintegra (Legado)"
+    },
+    {
+      "value": "0005943-93",
+      "company": "COMPANHIA ENERGETICA DE PERNAMBUCO"
+    },
+    {
+      "value": "0014398-71",
+      "company": "COMPANHIA PERNAMBUCANA DE SANEAMENTO"
+    },
+    {
+      "value": "0607699-80",
+      "company": "VOTORANTIM CIMENTOS N/NE S/A"
+    },
+    {
+      "value": "0318537-06",
+      "company": "M&G POLIMEROS BRASIL S.A."
+    },
+    {
+      "value": "0327800-01",
+      "company": "REFRESCOS GUARARAPES LTDA COCA COLA"
+    },
+    {
+      "value": "0342771-45",
+      "company": "ESTALEIRO ATLANTICO SUL S/A"
+    },
+    {
+      "value": "0290946-40",
+      "company": "ELLO-PUMA DISTRIBUIDORA DE COMBUSTIVEIS S/A"
+    },
+    {
+      "value": "0125831-11",
+      "company": "FEDEX BRASIL LOGISTICA E TRANSPORTE S.A."
+    },
+    {
+      "value": "0287455-58",
+      "company": "CONSORCIO OP TERMOPE"
+    },
+    {
+      "value": "0148778-72",
+      "company": "WHITE MARTINS GASES INDUSTRIAIS DO NORDESTE LTDA."
+    },
+    {
+      "value": "0008854-44",
+      "company": "ACUMULADORES MOURA S/A  Baterias Moura"
+    },
+    {
+      "value": "18.1.080.0279713-1",
+      "company": "M&G FIBRAS BRASIL LTDA. (Antiga)"
+    },
+    {
+      "value": "0279713-50",
+      "company": "M&G FIBRAS BRASIL LTDA."
+    }
+  ],
+  "PI": [
+    {
+      "value": "19301383-5",
+      "company": "COMPANHIA ENERGETICA DO PIAUI 08/08/1962"
+    },
+    {
+      "value": "19301656-7",
+      "company": "AGUAS E ESGOTOS DO PIAUI SA 28/01/1964"
+    },
+    {
+      "value": "19448642-7",
+      "company": "CARVALHO E FERNANDES LTDA"
+    },
+    {
+      "value": "19400969-6",
+      "company": "CLAUDINO S A LOJAS DE DEPARTAMENTOS"
+    },
+    {
+      "value": "19447385-6",
+      "company": "METROP0LITAN HOTEL LTDA"
+    },
+    {
+      "value": "19489563-7",
+      "company": "CEV V A P - CERAMICA VEREMLHA DO VALE DO PARNAIBA LTDA"
+    },
+    {
+      "value": "19451276-2",
+      "company": "DISTRIBUIDORA YORK LTDA"
+    },
+    {
+      "value": "19429717-9",
+      "company": "DISCAR DISTRIBUIDORA DE BEBIDAS CARVALHO LTDA"
+    }
+  ],
+  "PR": [
+    {
+      "value": "42212160-97",
+      "company": "ITAIPU BINACIONAL"
+    },
+    {
+      "value": "90102000-05",
+      "company": "Renault do Brasil S.A"
+    },
+    {
+      "value": "90233099-28",
+      "company": "Copel-Telecom - Copel Telecomunicacoes S.A."
+    },
+    {
+      "value": "41806670-97",
+      "company": "COAMO AGROINDUSTRIAL COOPERATIVA"
+    }
+  ],
+  "RJ": [
+    {
+      "value": "81.293.279",
+      "company": "PETROBRAS DISTRIBUIDORA SA"
+    },
+    {
+      "value": "80.495.072",
+      "company": "Vale 1986"
+    },
+    {
+      "value": "81.306.141",
+      "company": "RAIZEN COMBUSTIVEIS S A 17/11/1977"
+    },
+    {
+      "value": "81.680.469",
+      "company": "TELEMAR NORTE LESTE S/A 1978"
+    },
+    {
+      "value": "81.281.777",
+      "company": "COMPANHIA SIDERURGICA NACIONAL 1977"
+    },
+    {
+      "value": "81.380.023",
+      "company": "LIGHT SERVICOS DE ELETRICIDADE S A"
+    },
+    {
+      "value": "84.780.707",
+      "company": "COMPANHIA ESTADUAL DE AGUAS E ESGOTOS - CEDAE"
+    },
+    {
+      "value": "75.933.118",
+      "company": "BAZAR XING XING PRESENTES LTDA"
+    },
+    {
+      "value": "78.166.886",
+      "company": "MUNDO POPULAR BAZAR LTDA"
+    },
+    {
+      "value": "92.013.405",
+      "company": "CREDEAL MANUFATURA DE PAPEIS LTDA"
+    },
+    {
+      "value": "11.075.169",
+      "company": "ATACADAO S/A"
+    },
+    {
+      "value": "10.012.040",
+      "company": "FUNDACAO COPPETEC"
+    }
+  ],
+  "RN": [
+    {
+      "value": "20.302.450-8",
+      "company": "PETROLEO BRASILEIRO S A PETROBRAS"
+    },
+    {
+      "value": "20.055.199-0",
+      "company": "COMPANHIA ENERGETICA DO RIO GRANDE DO NORTE COSERN"
+    },
+    {
+      "value": "20.054.091-2",
+      "company": "TELEMAR NORTE LESTE S/A"
+    },
+    {
+      "value": "20.001.611-3",
+      "company": "GUARARAPES CONFECCOES S/A"
+    },
+    {
+      "value": "20.302.178-9",
+      "company": "TNL PCS SA"
+    },
+    {
+      "value": "20.003.548-7",
+      "company": "SOUZA CRUZ S/A"
+    },
+    {
+      "value": "20.001.816-7",
+      "company": "SUPERMERCADO NORDESTAO LTDA"
+    },
+    {
+      "value": "20.300.487-6",
+      "company": "AMBEV BRASIL BEBIDAS S.A."
+    },
+    {
+      "value": "20.088.161-2",
+      "company": "BOMPRECO SUPERMERCADOS DO NORDESTE LTDA"
+    }
+  ],
+  "RO": [
+    {
+      "value": "0000000062521-3",
+      "company": "Exemplo sintegra,"
+    },
+    {
+      "value": "101.62521-3",
+      "company": "Exemplo Sintegra (Legado)"
+    },
+    {
+      "value": "0000000025563-7",
+      "company": "CENTRAIS ELÉTRICAS DE RONDÔNIA S/A - CERON"
+    },
+    {
+      "value": "0000000095268-1",
+      "company": "COMPNACIONAL DE ABASTCONAB 1999"
+    },
+    {
+      "value": "0000000033376-0",
+      "company": "COMPANHIA NACIONAL DE ABASTECIMENTO - CONAB 1991"
+    },
+    {
+      "value": "0000000002819-3",
+      "company": "EMPRBRASCORRE TELEGRAFOS (Correios) 1969"
+    },
+    {
+      "value": "0000000348915-9",
+      "company": "ELETROSUL CENTRAIS ELETRICAS S/A 2012"
+    },
+    {
+      "value": "0000000394095-1",
+      "company": "WSP RONDÔNIA SERVIÇOS DE TELECOMUNICAÇÕES LTDA - ME 2013"
+    },
+    {
+      "value": "0000000055105-8",
+      "company": "MECANIZAÇAO RONDONIA LTDA EPP 2010 CANCELADO"
+    }
+  ],
+  "RR": [
+    {
+      "value": "24.001489-5",
+      "company": "COMPANHIA ENERGETICA DE RORAIMA"
+    },
+    {
+      "value": "24.006114-4",
+      "company": "COMPANHIA DE AGUAS E ESGOTOS DE RORAIMA"
+    },
+    {
+      "value": "24.010923-7",
+      "company": "RORAIMA ADVENTURES TURISMO LTDA ME"
+    },
+    {
+      "value": "24.017489-3",
+      "company": "RORAIMA TRADING COM DE IMP E EXP LTDA ME 1987"
+    },
+    {
+      "value": "24.018796-0",
+      "company": "INSTITUTO BATISTA DE RORAIMA 1986"
+    },
+    {
+      "value": "24.014480-6",
+      "company": "UNIVERSIDADE ESTADUAL DE RORAIMA"
+    }
+  ],
+  "RS": [
+    {
+      "value": "224/3658792",
+      "company": "Exemplo Sintegra"
+    },
+    {
+      "value": "132/0117934",
+      "company": "GERDAU ACOS LONGOS S/A 2005"
+    },
+    {
+      "value": "008/0181198",
+      "company": "IPIRANGA PRODUTOS DE PETROLEO S/A 2009"
+    },
+    {
+      "value": "120/0082831",
+      "company": "COPESUL COMERCIO DE MATERIAL DE CONSTRUCAO LTDA"
+    },
+    {
+      "value": "024/0311698",
+      "company": "ALBERTO PASQUALINI REFAP S/A"
+    },
+    {
+      "value": "096/2536253",
+      "company": "BANCO DO ESTADO DO RIO GRANDE DO SUL S/A BANRISUL 1996"
+    },
+    {
+      "value": "029/0487447",
+      "company": "RIO GRANDE ENERGIA S/A RGE"
+    }
+  ],
+  "SC": [
+    {
+      "value": "251.040.852",
+      "company": "Exemplo Sintegra"
+    },
+    {
+      "value": "255.926.561",
+      "company": "BRF Brasil Food S/A"
+    },
+    {
+      "value": "250.126.494",
+      "company": "WEG SA"
+    },
+    {
+      "value": "253.645.700",
+      "company": "ENGIE BRASIL ENERGIA S.A."
+    },
+    {
+      "value": "250.166.321",
+      "company": "Centrais Elétricas de Santa Catarina S. A. - CELESC"
+    },
+    {
+      "value": "255.266.626",
+      "company": "Celesc Distribuição S. A."
+    },
+    {
+      "value": "255.267.177",
+      "company": "Celesc Geração S. A."
+    },
+    {
+      "value": "253.028.655",
+      "company": "Companhia de Gás de Santa Catarina S.A. - SCGÁS"
+    }
+  ],
+  "SE": [
+    {
+      "value": "27.123.456-3",
+      "company": "Exemplo Sintegra"
+    },
+    {
+      "value": "27.076.743-6",
+      "company": "ENERGISA SERGIPE - DISTRIBUIDORA DE ENERGIA S.A. 1966"
+    },
+    {
+      "value": "27.105.210-4",
+      "company": "CENCOSUD BRASIL COMERCIAL LTDA G Barbosa"
+    },
+    {
+      "value": "27.051.036-2",
+      "company": "COMPANHIA DE SANEAMENTO DE SERGIPE - DESO"
+    },
+    {
+      "value": "27.000.251-0",
+      "company": "SERGIPE INDUSTRIAL TEXTIL LTDA"
+    },
+    {
+      "value": "27.003.407-2",
+      "company": "CIA SUL SERGIPANA DE ELETRICIDADE"
+    },
+    {
+      "value": "27.072.532-6",
+      "company": "CERAMICA SERGIPE INDUSTRIA E COMERCIO LTDA"
+    }
+  ],
+  "SP": [
+    {
+      "value": "102.614.327.119",
+      "company": "COMPANHIA ULTRAGAZ S/A"
+    },
+    {
+      "value": "104.871.489.118",
+      "company": "CARGILL AGRICOLA S A 1965"
+    },
+    {
+      "value": "104.120.688.115",
+      "company": "COMPANHIA BRASILEIRA DE DISTRIBUICAO | Pão de açucar"
+    },
+    {
+      "value": "109.184.763.118",
+      "company": "COMPANHIA BRASILEIRA DE DISTRIBUICAO | Pão de açucar"
+    },
+    {
+      "value": "116.167.080.117",
+      "company": "COMPANHIA BRASILEIRA DE DISTRIBUICAO | Pão de açucar"
+    },
+    {
+      "value": "116.804.053.119",
+      "company": "COMPANHIA BRASILEIRA DE DISTRIBUICAO | Pão de açucar"
+    },
+    {
+      "value": "103.874.615.112",
+      "company": "COMPANHIA BRASILEIRA DE DISTRIBUICAO | Pão de açucar"
+    },
+    {
+      "value": "105.475.569.116",
+      "company": "COMPANHIA BRASILEIRA DE DISTRIBUICAO | Pão de açucar"
+    },
+    {
+      "value": "104.157.953.116",
+      "company": "COMPANHIA BRASILEIRA DE DISTRIBUICAO | Pão de açucar"
+    },
+    {
+      "value": "145.848.640.117",
+      "company": "COMPANHIA BRASILEIRA DE DISTRIBUICAO | Pão de açucar"
+    },
+    {
+      "value": "636.192.740.114",
+      "company": "COMPANHIA BRASILEIRA DE DISTRIBUICAO | Pão de açucar"
+    },
+    {
+      "value": "623.097.238.116",
+      "company": "COMPANHIA BRASILEIRA DE DISTRIBUICAO | Pão de açucar"
+    },
+    {
+      "value": "111.123.980.116",
+      "company": "LOUIS DREYFUS COMPANY BRASIL S.A."
+    }
+  ],
+  "TO": [
+    {
+      "value": "29.022.783-6",
+      "company": "Exemplo Sintegra"
+    },
+    {
+      "value": "29.031.998-6",
+      "company": "ENERGISA TOCANTINS DISTRIBUIDORA DE ENERGIA S/A"
+    },
+    {
+      "value": "29.031.448-8",
+      "company": "COMPANHIA DE SANEAMENTO DO TOCANTINS-SANEATINS"
+    },
+    {
+      "value": "29.068.567-2",
+      "company": "MINASCOM COMERCIAL LTDA"
+    },
+    {
+      "value": "29.451.487-2",
+      "company": "TIM CELULAR S.A"
+    },
+    {
+      "value": "29.430.513-0",
+      "company": "CINEMARK BRASIL S A"
+    },
+    {
+      "value": "29.414.603-2",
+      "company": "Palmas Cell"
+    }
+  ]
+}

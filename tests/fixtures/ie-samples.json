@@ -1,0 +1,1256 @@
+{
+  "AC": {
+    "valid": [
+      {
+        "value": "01.004.823/001-12",
+        "source": "Sintegra — exemplo do roteiro de crítica da UF"
+      },
+      {
+        "value": "01.966.402/850-16",
+        "source": "empresa real (Exemplo Sintegra) — brazilian_documents (MIT, © 2016 Rafael Fidelis) — spec/documents/ie/ac_spec.rb"
+      },
+      {
+        "value": "01.004.141/001-46",
+        "source": "empresa real (COMPANHIA DE ELETRICIDADE DO ACRE) — brazilian_documents (MIT, © 2016 Rafael Fidelis) — spec/documents/ie/ac_spec.rb"
+      },
+      {
+        "value": "01.007.923/001-37",
+        "source": "empresa real (COMPANHIA DE SANEAMENTO DO ESTADO DO ACRE) — brazilian_documents (MIT, © 2016 Rafael Fidelis) — spec/documents/ie/ac_spec.rb"
+      },
+      {
+        "value": "01.021.182/001-38",
+        "source": "empresa real (COOP DE TRANSPORTES DE CARGAS RIO BRANCO) — brazilian_documents (MIT, © 2016 Rafael Fidelis) — spec/documents/ie/ac_spec.rb"
+      }
+    ],
+    "invalid": [
+      {
+        "value": "0100482300113",
+        "reason": "dígito verificador alterado (0100482300112)"
+      },
+      {
+        "value": "0105992674938",
+        "reason": "dígito verificador alterado (0105992674937)"
+      },
+      {
+        "value": "0132586437164",
+        "reason": "dígito verificador alterado (0132586437163)"
+      },
+      {
+        "value": "01004823001121",
+        "reason": "tamanho inválido"
+      },
+      {
+        "value": "010048230011",
+        "reason": "tamanho inválido"
+      }
+    ]
+  },
+  "AL": {
+    "valid": [
+      {
+        "value": "24000004-8",
+        "source": "Sintegra — exemplo do roteiro de crítica da UF"
+      },
+      {
+        "value": "24.000.004-8",
+        "source": "empresa real (Exemplo Sintegra) — brazilian_documents (MIT, © 2016 Rafael Fidelis) — spec/documents/ie/al_spec.rb"
+      },
+      {
+        "value": "24.007.177-8",
+        "source": "empresa real (COMPANHIA ENERGETICA DE ALAGOAS - CEA) — brazilian_documents (MIT, © 2016 Rafael Fidelis) — spec/documents/ie/al_spec.rb"
+      },
+      {
+        "value": "24.209.925-4",
+        "source": "empresa real (VIVO S/A) — brazilian_documents (MIT, © 2016 Rafael Fidelis) — spec/documents/ie/al_spec.rb"
+      },
+      {
+        "value": "24.009.599-5",
+        "source": "empresa real (BANCO DO ESTADO DE ALAGOAS S A) — brazilian_documents (MIT, © 2016 Rafael Fidelis) — spec/documents/ie/al_spec.rb"
+      }
+    ],
+    "invalid": [
+      {
+        "value": "240000049",
+        "reason": "dígito verificador alterado (240000048)"
+      },
+      {
+        "value": "247059928",
+        "reason": "dígito verificador alterado (247059927)"
+      },
+      {
+        "value": "247325865",
+        "reason": "dígito verificador alterado (247325864)"
+      },
+      {
+        "value": "2400000481",
+        "reason": "tamanho inválido"
+      },
+      {
+        "value": "24000004",
+        "reason": "tamanho inválido"
+      }
+    ]
+  },
+  "AM": {
+    "valid": [
+      {
+        "value": "07.000.220-7",
+        "source": "empresa real (Moto Honda) — brazilian_documents (MIT, © 2016 Rafael Fidelis) — spec/documents/ie/am_spec.rb"
+      },
+      {
+        "value": "06.200.256-2",
+        "source": "empresa real (Moto Honda) — brazilian_documents (MIT, © 2016 Rafael Fidelis) — spec/documents/ie/am_spec.rb"
+      },
+      {
+        "value": "04.156.817-6",
+        "source": "empresa real (Moto Honda) — brazilian_documents (MIT, © 2016 Rafael Fidelis) — spec/documents/ie/am_spec.rb"
+      },
+      {
+        "value": "04.153.370-4",
+        "source": "empresa real (Monto Honda) — brazilian_documents (MIT, © 2016 Rafael Fidelis) — spec/documents/ie/am_spec.rb"
+      }
+    ],
+    "invalid": [
+      {
+        "value": "059926741",
+        "reason": "dígito verificador alterado (059926740)"
+      },
+      {
+        "value": "325864374",
+        "reason": "dígito verificador alterado (325864373)"
+      },
+      {
+        "value": "040744125",
+        "reason": "dígito verificador alterado (040744124)"
+      },
+      {
+        "value": "0599267401",
+        "reason": "tamanho inválido"
+      },
+      {
+        "value": "05992674",
+        "reason": "tamanho inválido"
+      }
+    ]
+  },
+  "AP": {
+    "valid": [
+      {
+        "value": "03.012.345-9",
+        "source": "Sintegra — exemplo do roteiro de crítica da UF"
+      },
+      {
+        "value": "03.012345-9",
+        "source": "empresa real (Exemplo sintegra.gov) — brazilian_documents (MIT, © 2016 Rafael Fidelis) — spec/documents/ie/ap_spec.rb"
+      },
+      {
+        "value": "03.008674-0",
+        "source": "empresa real (COMPANHIA DE AGUA E ESGOTOS DO AMAPA - CAESA) — brazilian_documents (MIT, © 2016 Rafael Fidelis) — spec/documents/ie/ap_spec.rb"
+      },
+      {
+        "value": "03.002994-0",
+        "source": "empresa real (CEA - Companhia de Eletricidade do Amapá) — brazilian_documents (MIT, © 2016 Rafael Fidelis) — spec/documents/ie/ap_spec.rb"
+      },
+      {
+        "value": "03.049903-8",
+        "source": "empresa real (CINEPOLIS OPERADORA DE CINEMAS DO BRASIL LTDA) — brazilian_documents (MIT, © 2016 Rafael Fidelis) — spec/documents/ie/ap_spec.rb"
+      }
+    ],
+    "invalid": [
+      {
+        "value": "030123450",
+        "reason": "dígito verificador alterado (030123459)"
+      },
+      {
+        "value": "030105991",
+        "reason": "dígito verificador alterado (030105990)"
+      },
+      {
+        "value": "033258644",
+        "reason": "dígito verificador alterado (033258643)"
+      },
+      {
+        "value": "0301234591",
+        "reason": "tamanho inválido"
+      },
+      {
+        "value": "03012345",
+        "reason": "tamanho inválido"
+      }
+    ]
+  },
+  "BA": {
+    "valid": [
+      {
+        "value": "123456-63",
+        "source": "Sintegra — exemplo do roteiro de crítica da UF"
+      },
+      {
+        "value": "612345-57",
+        "source": "Sintegra — exemplo do roteiro de crítica da UF"
+      },
+      {
+        "value": "1000003-06",
+        "source": "Sintegra — exemplo do roteiro de crítica da UF"
+      },
+      {
+        "value": "001.027.389",
+        "source": "empresa real (BRASKEM S/A 01/02/1974) — brazilian_documents (MIT, © 2016 Rafael Fidelis) — spec/documents/ie/ba_spec.rb"
+      },
+      {
+        "value": "026.641.885",
+        "source": "empresa real (SUZANO PAPEL E CELULOSE S.A. 22/01/1988) — brazilian_documents (MIT, © 2016 Rafael Fidelis) — spec/documents/ie/ba_spec.rb"
+      },
+      {
+        "value": "000.478.696",
+        "source": "empresa real (COMPANHIA DE ELETRICIDADE DO ESTADO DA BAHIA COELBA 28/03/1960) — brazilian_documents (MIT, © 2016 Rafael Fidelis) — spec/documents/ie/ba_spec.rb"
+      },
+      {
+        "value": "004.539.298",
+        "source": "empresa real (PIRELLI PNEUS LTDA Feira de Santana 12/02/1969) — brazilian_documents (MIT, © 2016 Rafael Fidelis) — spec/documents/ie/ba_spec.rb"
+      }
+    ],
+    "invalid": [
+      {
+        "value": "12345664",
+        "reason": "dígito verificador alterado (12345663)"
+      },
+      {
+        "value": "61234558",
+        "reason": "dígito verificador alterado (61234557)"
+      },
+      {
+        "value": "100000307",
+        "reason": "dígito verificador alterado (100000306)"
+      },
+      {
+        "value": "123456631",
+        "reason": "tamanho inválido"
+      },
+      {
+        "value": "1234566",
+        "reason": "tamanho inválido"
+      }
+    ]
+  },
+  "CE": {
+    "valid": [
+      {
+        "value": "06000001-5",
+        "source": "Sintegra — exemplo do roteiro de crítica da UF"
+      },
+      {
+        "value": "06.105848-3",
+        "source": "empresa real (COMPANHIA ENERGETICA DO CEARA COELCE) — brazilian_documents (MIT, © 2016 Rafael Fidelis) — spec/documents/ie/ce_spec.rb"
+      },
+      {
+        "value": "06.102615-8",
+        "source": "empresa real (MDIAS BRANCO S A INDUSTRIA E COMERCIO DE ALIMENTOS) — brazilian_documents (MIT, © 2016 Rafael Fidelis) — spec/documents/ie/ce_spec.rb"
+      },
+      {
+        "value": "06.845128-8",
+        "source": "empresa real (EMPREENDIMENTOS PAGUE MENOS S/A) — brazilian_documents (MIT, © 2016 Rafael Fidelis) — spec/documents/ie/ce_spec.rb"
+      },
+      {
+        "value": "06.204166-5",
+        "source": "empresa real (J MACEDO S/A) — brazilian_documents (MIT, © 2016 Rafael Fidelis) — spec/documents/ie/ce_spec.rb"
+      }
+    ],
+    "invalid": [
+      {
+        "value": "060000016",
+        "reason": "dígito verificador alterado (060000015)"
+      },
+      {
+        "value": "059926741",
+        "reason": "dígito verificador alterado (059926740)"
+      },
+      {
+        "value": "325864374",
+        "reason": "dígito verificador alterado (325864373)"
+      },
+      {
+        "value": "0600000151",
+        "reason": "tamanho inválido"
+      },
+      {
+        "value": "06000001",
+        "reason": "tamanho inválido"
+      }
+    ]
+  },
+  "DF": {
+    "valid": [
+      {
+        "value": "07.300001.001-09",
+        "source": "Sintegra — exemplo do roteiro de crítica da UF"
+      },
+      {
+        "value": "07.300.001.001-09",
+        "source": "empresa real (Exemplo Sintegra) — brazilian_documents (MIT, © 2016 Rafael Fidelis) — spec/documents/ie/df_spec.rb"
+      },
+      {
+        "value": "07.441.356.001-93",
+        "source": "empresa real (Oi) — brazilian_documents (MIT, © 2016 Rafael Fidelis) — spec/documents/ie/df_spec.rb"
+      },
+      {
+        "value": "07.326.199.001-83",
+        "source": "empresa real (CENTRAIS ELETRICAS DO NORTE DO BRASIL S/A) — brazilian_documents (MIT, © 2016 Rafael Fidelis) — spec/documents/ie/df_spec.rb"
+      },
+      {
+        "value": "07.317.963.001-13",
+        "source": "empresa real (EMPRESA BRASILEIRA DE INFRA-ESTRUTURA AEROPORTUARIA 1994) — brazilian_documents (MIT, © 2016 Rafael Fidelis) — spec/documents/ie/df_spec.rb"
+      }
+    ],
+    "invalid": [
+      {
+        "value": "0730000100100",
+        "reason": "dígito verificador alterado (0730000100109)"
+      },
+      {
+        "value": "0805992674941",
+        "reason": "dígito verificador alterado (0805992674940)"
+      },
+      {
+        "value": "0832586437177",
+        "reason": "dígito verificador alterado (0832586437176)"
+      },
+      {
+        "value": "07300001001091",
+        "reason": "tamanho inválido"
+      },
+      {
+        "value": "073000010010",
+        "reason": "tamanho inválido"
+      }
+    ]
+  },
+  "ES": {
+    "valid": [
+      {
+        "value": "080.624.68-5",
+        "source": "empresa real (A GAZETA DO ESPIRITO SANTO RADIO E TV LTDA) — brazilian_documents (MIT, © 2016 Rafael Fidelis) — spec/documents/ie/es_spec.rb"
+      },
+      {
+        "value": "081.989.93-8",
+        "source": "empresa real (ABAV - ABATEDOURO ATILIO VIVACQUA LTDA) — brazilian_documents (MIT, © 2016 Rafael Fidelis) — spec/documents/ie/es_spec.rb"
+      },
+      {
+        "value": "080.507.33-6",
+        "source": "empresa real (ACTA ENGENHARIA LTDA) — brazilian_documents (MIT, © 2016 Rafael Fidelis) — spec/documents/ie/es_spec.rb"
+      },
+      {
+        "value": "080.835.35-0",
+        "source": "empresa real (ALCON COMPANHIA DE ALCOOL CONC DA BARRA) — brazilian_documents (MIT, © 2016 Rafael Fidelis) — spec/documents/ie/es_spec.rb"
+      }
+    ],
+    "invalid": [
+      {
+        "value": "059926741",
+        "reason": "dígito verificador alterado (059926740)"
+      },
+      {
+        "value": "325864374",
+        "reason": "dígito verificador alterado (325864373)"
+      },
+      {
+        "value": "040744125",
+        "reason": "dígito verificador alterado (040744124)"
+      },
+      {
+        "value": "0599267401",
+        "reason": "tamanho inválido"
+      },
+      {
+        "value": "05992674",
+        "reason": "tamanho inválido"
+      }
+    ]
+  },
+  "GO": {
+    "valid": [
+      {
+        "value": "10.987.654-7",
+        "source": "Sintegra — exemplo do roteiro de crítica da UF"
+      },
+      {
+        "value": "10.139.969-3",
+        "source": "empresa real (PANPHARMA DISTRIBUIDORA DE MEDICAMENTOS LTDA. 1990) — brazilian_documents (MIT, © 2016 Rafael Fidelis) — spec/documents/ie/go_spec.rb"
+      },
+      {
+        "value": "10.013.357-6",
+        "source": "empresa real (SANEAMENTO DE GOIAS S/A 09/07/1984) — brazilian_documents (MIT, © 2016 Rafael Fidelis) — spec/documents/ie/go_spec.rb"
+      },
+      {
+        "value": "10.054.942-0",
+        "source": "empresa real (CELG DISTRIBUICAO S.A. - CELG D 13/03/1989) — brazilian_documents (MIT, © 2016 Rafael Fidelis) — spec/documents/ie/go_spec.rb"
+      },
+      {
+        "value": "10.398.152-7",
+        "source": "empresa real (HOTELARIA ACCOR BRASIL S/A 21/03/2006) — brazilian_documents (MIT, © 2016 Rafael Fidelis) — spec/documents/ie/go_spec.rb"
+      }
+    ],
+    "invalid": [
+      {
+        "value": "109876548",
+        "reason": "dígito verificador alterado (109876547)"
+      },
+      {
+        "value": "150599260",
+        "reason": "dígito verificador alterado (150599269)"
+      },
+      {
+        "value": "153258641",
+        "reason": "dígito verificador alterado (153258640)"
+      },
+      {
+        "value": "1098765471",
+        "reason": "tamanho inválido"
+      },
+      {
+        "value": "10987654",
+        "reason": "tamanho inválido"
+      }
+    ]
+  },
+  "MA": {
+    "valid": [
+      {
+        "value": "12.000.038-5",
+        "source": "Sintegra — exemplo do roteiro de crítica da UF"
+      },
+      {
+        "value": "12.085.506-2",
+        "source": "empresa real (PETROLEO BRASILEIRO S A PETROBRAS) — brazilian_documents (MIT, © 2016 Rafael Fidelis) — spec/documents/ie/ma_spec.rb"
+      },
+      {
+        "value": "12.051.511-3",
+        "source": "empresa real (COMPANHIA ENERGETICA DO MARANHAO CEMAR) — brazilian_documents (MIT, © 2016 Rafael Fidelis) — spec/documents/ie/ma_spec.rb"
+      },
+      {
+        "value": "12.051.297-1",
+        "source": "empresa real (PETROBRAS DISTRIBUIDORA S A) — brazilian_documents (MIT, © 2016 Rafael Fidelis) — spec/documents/ie/ma_spec.rb"
+      },
+      {
+        "value": "12.423.718-5",
+        "source": "empresa real (AMBEV S A) — brazilian_documents (MIT, © 2016 Rafael Fidelis) — spec/documents/ie/ma_spec.rb"
+      }
+    ],
+    "invalid": [
+      {
+        "value": "120000386",
+        "reason": "dígito verificador alterado (120000385)"
+      },
+      {
+        "value": "120599261",
+        "reason": "dígito verificador alterado (120599260)"
+      },
+      {
+        "value": "123258643",
+        "reason": "dígito verificador alterado (123258642)"
+      },
+      {
+        "value": "1200003851",
+        "reason": "tamanho inválido"
+      },
+      {
+        "value": "12000038",
+        "reason": "tamanho inválido"
+      }
+    ]
+  },
+  "MG": {
+    "valid": [
+      {
+        "value": "062.307.904/0081",
+        "source": "Sintegra — exemplo do roteiro de crítica da UF"
+      },
+      {
+        "value": "062307904.00-81",
+        "source": "empresa real (Exemplo sintegra) — brazilian_documents (MIT, © 2016 Rafael Fidelis) — spec/documents/ie/mg_spec.rb"
+      },
+      {
+        "value": "702386594.00-73",
+        "source": "empresa real (ALGAR AVIATION TAXI AEREO S/A) — brazilian_documents (MIT, © 2016 Rafael Fidelis) — spec/documents/ie/mg_spec.rb"
+      },
+      {
+        "value": "001094739.00-90",
+        "source": "empresa real (MINAS GERAIS EDUCACAO SA) — brazilian_documents (MIT, © 2016 Rafael Fidelis) — spec/documents/ie/mg_spec.rb"
+      },
+      {
+        "value": "062013766.01-45",
+        "source": "empresa real (BANCO MERCANTIL DO BRASIL S A) — brazilian_documents (MIT, © 2016 Rafael Fidelis) — spec/documents/ie/mg_spec.rb"
+      }
+    ],
+    "invalid": [
+      {
+        "value": "0623079040082",
+        "reason": "dígito verificador alterado (0623079040081)"
+      },
+      {
+        "value": "0599267490119",
+        "reason": "dígito verificador alterado (0599267490118)"
+      },
+      {
+        "value": "3258643710163",
+        "reason": "dígito verificador alterado (3258643710162)"
+      },
+      {
+        "value": "06230790400811",
+        "reason": "tamanho inválido"
+      },
+      {
+        "value": "062307904008",
+        "reason": "tamanho inválido"
+      }
+    ]
+  },
+  "MS": {
+    "valid": [
+      {
+        "value": "28.008.461-7",
+        "source": "empresa real (COPAGAZ) — brazilian_documents (MIT, © 2016 Rafael Fidelis) — spec/documents/ie/ms_spec.rb"
+      },
+      {
+        "value": "28.090.459-2",
+        "source": "empresa real (Rede Matogrossense de Televisao) — brazilian_documents (MIT, © 2016 Rafael Fidelis) — spec/documents/ie/ms_spec.rb"
+      },
+      {
+        "value": "28.267.793-3",
+        "source": "empresa real (Nucleo da Pgpm Mato Grosso do Sul) — brazilian_documents (MIT, © 2016 Rafael Fidelis) — spec/documents/ie/ms_spec.rb"
+      },
+      {
+        "value": "28.302.733-9",
+        "source": "empresa real (Unidade Mercado de Opcoes Mato Grosso do Sul) — brazilian_documents (MIT, © 2016 Rafael Fidelis) — spec/documents/ie/ms_spec.rb"
+      }
+    ],
+    "invalid": [
+      {
+        "value": "500599263",
+        "reason": "dígito verificador alterado (500599262)"
+      },
+      {
+        "value": "503258645",
+        "reason": "dígito verificador alterado (503258644)"
+      },
+      {
+        "value": "500407445",
+        "reason": "dígito verificador alterado (500407444)"
+      },
+      {
+        "value": "5005992621",
+        "reason": "tamanho inválido"
+      },
+      {
+        "value": "50059926",
+        "reason": "tamanho inválido"
+      }
+    ]
+  },
+  "MT": {
+    "valid": [
+      {
+        "value": "0013000001-9",
+        "source": "Sintegra — exemplo do roteiro de crítica da UF"
+      },
+      {
+        "value": "13.000.001-9",
+        "source": "empresa real (Exemplo Sintegra) — brazilian_documents (MIT, © 2016 Rafael Fidelis) — spec/documents/ie/mt_spec.rb"
+      },
+      {
+        "value": "13.324.155-6",
+        "source": "empresa real (AMAGGI EXPORTAÇÃO E IMPORTAÇÃO LTDA) — brazilian_documents (MIT, © 2016 Rafael Fidelis) — spec/documents/ie/mt_spec.rb"
+      },
+      {
+        "value": "13.020.425-0",
+        "source": "empresa real (ENERGISA MATO GROSSO - DISTRIBUIDORA DE ENERGIA S. 17/01/2000) — brazilian_documents (MIT, © 2016 Rafael Fidelis) — spec/documents/ie/mt_spec.rb"
+      },
+      {
+        "value": "13.282.948-7",
+        "source": "empresa real (FIAGRIL LTDA) — brazilian_documents (MIT, © 2016 Rafael Fidelis) — spec/documents/ie/mt_spec.rb"
+      }
+    ],
+    "invalid": [
+      {
+        "value": "00130000010",
+        "reason": "dígito verificador alterado (00130000019)"
+      },
+      {
+        "value": "05992674940",
+        "reason": "dígito verificador alterado (05992674949)"
+      },
+      {
+        "value": "32586437176",
+        "reason": "dígito verificador alterado (32586437175)"
+      },
+      {
+        "value": "001300000191",
+        "reason": "tamanho inválido"
+      },
+      {
+        "value": "0013000001",
+        "reason": "tamanho inválido"
+      }
+    ]
+  },
+  "PA": {
+    "valid": [
+      {
+        "value": "15-999999-5",
+        "source": "Sintegra — exemplo do roteiro de crítica da UF"
+      },
+      {
+        "value": "15.999.999-5",
+        "source": "empresa real (Exemplo Sintegra) — brazilian_documents (MIT, © 2016 Rafael Fidelis) — spec/documents/ie/pa_spec.rb"
+      },
+      {
+        "value": "15.000.614-4",
+        "source": "empresa real (Y Yamada Sa Comercio e Industria) — brazilian_documents (MIT, © 2016 Rafael Fidelis) — spec/documents/ie/pa_spec.rb"
+      },
+      {
+        "value": "15.069.665-5",
+        "source": "empresa real (ALBRAS ALUMINIO BRASILEIRO S.A) — brazilian_documents (MIT, © 2016 Rafael Fidelis) — spec/documents/ie/pa_spec.rb"
+      },
+      {
+        "value": "15.074.998-8",
+        "source": "empresa real (COMPANHIA DE SANEAMENTO DO PARA) — brazilian_documents (MIT, © 2016 Rafael Fidelis) — spec/documents/ie/pa_spec.rb"
+      }
+    ],
+    "invalid": [
+      {
+        "value": "159999996",
+        "reason": "dígito verificador alterado (159999995)"
+      },
+      {
+        "value": "750599261",
+        "reason": "dígito verificador alterado (750599260)"
+      },
+      {
+        "value": "753258642",
+        "reason": "dígito verificador alterado (753258641)"
+      },
+      {
+        "value": "1599999951",
+        "reason": "tamanho inválido"
+      },
+      {
+        "value": "15999999",
+        "reason": "tamanho inválido"
+      }
+    ]
+  },
+  "PB": {
+    "valid": [
+      {
+        "value": "06000001-5",
+        "source": "Sintegra — exemplo do roteiro de crítica da UF"
+      },
+      {
+        "value": "16.015.823-0",
+        "source": "empresa real (Energisa) — brazilian_documents (MIT, © 2016 Rafael Fidelis) — spec/documents/ie/pb_spec.rb"
+      },
+      {
+        "value": "16.064.797-5",
+        "source": "empresa real (Oi) — brazilian_documents (MIT, © 2016 Rafael Fidelis) — spec/documents/ie/pb_spec.rb"
+      },
+      {
+        "value": "16.211.981-0",
+        "source": "empresa real (Oi Movel) — brazilian_documents (MIT, © 2016 Rafael Fidelis) — spec/documents/ie/pb_spec.rb"
+      },
+      {
+        "value": "16.143.665-0",
+        "source": "empresa real (Tim) — brazilian_documents (MIT, © 2016 Rafael Fidelis) — spec/documents/ie/pb_spec.rb"
+      }
+    ],
+    "invalid": [
+      {
+        "value": "060000016",
+        "reason": "dígito verificador alterado (060000015)"
+      },
+      {
+        "value": "059926741",
+        "reason": "dígito verificador alterado (059926740)"
+      },
+      {
+        "value": "325864374",
+        "reason": "dígito verificador alterado (325864373)"
+      },
+      {
+        "value": "0600000151",
+        "reason": "tamanho inválido"
+      },
+      {
+        "value": "06000001",
+        "reason": "tamanho inválido"
+      }
+    ]
+  },
+  "PE": {
+    "valid": [
+      {
+        "value": "0321418-40",
+        "source": "Sintegra — exemplo do roteiro de crítica da UF"
+      },
+      {
+        "value": "18.1.001.0000004-9",
+        "source": "Sintegra — exemplo do roteiro de crítica da UF"
+      },
+      {
+        "value": "0005943-93",
+        "source": "empresa real (COMPANHIA ENERGETICA DE PERNAMBUCO) — brazilian_documents (MIT, © 2016 Rafael Fidelis) — spec/documents/ie/pe_spec.rb"
+      },
+      {
+        "value": "0014398-71",
+        "source": "empresa real (COMPANHIA PERNAMBUCANA DE SANEAMENTO) — brazilian_documents (MIT, © 2016 Rafael Fidelis) — spec/documents/ie/pe_spec.rb"
+      },
+      {
+        "value": "0607699-80",
+        "source": "empresa real (VOTORANTIM CIMENTOS N/NE S/A) — brazilian_documents (MIT, © 2016 Rafael Fidelis) — spec/documents/ie/pe_spec.rb"
+      },
+      {
+        "value": "0318537-06",
+        "source": "empresa real (M&G POLIMEROS BRASIL S.A.) — brazilian_documents (MIT, © 2016 Rafael Fidelis) — spec/documents/ie/pe_spec.rb"
+      }
+    ],
+    "invalid": [
+      {
+        "value": "032141841",
+        "reason": "dígito verificador alterado (032141840)"
+      },
+      {
+        "value": "18100100000040",
+        "reason": "dígito verificador alterado (18100100000049)"
+      },
+      {
+        "value": "18015992674949",
+        "reason": "dígito verificador alterado (18015992674948)"
+      },
+      {
+        "value": "0321418401",
+        "reason": "tamanho inválido"
+      },
+      {
+        "value": "03214184",
+        "reason": "tamanho inválido"
+      }
+    ]
+  },
+  "PI": {
+    "valid": [
+      {
+        "value": "012345679",
+        "source": "Sintegra — exemplo do roteiro de crítica da UF"
+      },
+      {
+        "value": "19301383-5",
+        "source": "empresa real (COMPANHIA ENERGETICA DO PIAUI 08/08/1962) — brazilian_documents (MIT, © 2016 Rafael Fidelis) — spec/documents/ie/pi_spec.rb"
+      },
+      {
+        "value": "19301656-7",
+        "source": "empresa real (AGUAS E ESGOTOS DO PIAUI SA 28/01/1964) — brazilian_documents (MIT, © 2016 Rafael Fidelis) — spec/documents/ie/pi_spec.rb"
+      },
+      {
+        "value": "19448642-7",
+        "source": "empresa real (CARVALHO E FERNANDES LTDA) — brazilian_documents (MIT, © 2016 Rafael Fidelis) — spec/documents/ie/pi_spec.rb"
+      },
+      {
+        "value": "19400969-6",
+        "source": "empresa real (CLAUDINO S A LOJAS DE DEPARTAMENTOS) — brazilian_documents (MIT, © 2016 Rafael Fidelis) — spec/documents/ie/pi_spec.rb"
+      }
+    ],
+    "invalid": [
+      {
+        "value": "012345670",
+        "reason": "dígito verificador alterado (012345679)"
+      },
+      {
+        "value": "059926741",
+        "reason": "dígito verificador alterado (059926740)"
+      },
+      {
+        "value": "325864374",
+        "reason": "dígito verificador alterado (325864373)"
+      },
+      {
+        "value": "0123456791",
+        "reason": "tamanho inválido"
+      },
+      {
+        "value": "01234567",
+        "reason": "tamanho inválido"
+      }
+    ]
+  },
+  "PR": {
+    "valid": [
+      {
+        "value": "123.45678-50",
+        "source": "Sintegra — exemplo do roteiro de crítica da UF"
+      },
+      {
+        "value": "42212160-97",
+        "source": "empresa real (ITAIPU BINACIONAL) — brazilian_documents (MIT, © 2016 Rafael Fidelis) — spec/documents/ie/pr_spec.rb"
+      },
+      {
+        "value": "90102000-05",
+        "source": "empresa real (Renault do Brasil S.A) — brazilian_documents (MIT, © 2016 Rafael Fidelis) — spec/documents/ie/pr_spec.rb"
+      },
+      {
+        "value": "90233099-28",
+        "source": "empresa real (Copel-Telecom - Copel Telecomunicacoes S.A.) — brazilian_documents (MIT, © 2016 Rafael Fidelis) — spec/documents/ie/pr_spec.rb"
+      },
+      {
+        "value": "41806670-97",
+        "source": "empresa real (COAMO AGROINDUSTRIAL COOPERATIVA) — brazilian_documents (MIT, © 2016 Rafael Fidelis) — spec/documents/ie/pr_spec.rb"
+      }
+    ],
+    "invalid": [
+      {
+        "value": "1234567851",
+        "reason": "dígito verificador alterado (1234567850)"
+      },
+      {
+        "value": "0599267485",
+        "reason": "dígito verificador alterado (0599267484)"
+      },
+      {
+        "value": "3258643704",
+        "reason": "dígito verificador alterado (3258643703)"
+      },
+      {
+        "value": "12345678501",
+        "reason": "tamanho inválido"
+      },
+      {
+        "value": "123456785",
+        "reason": "tamanho inválido"
+      }
+    ]
+  },
+  "RJ": {
+    "valid": [
+      {
+        "value": "99.999.99-3",
+        "source": "Sintegra — exemplo do roteiro de crítica da UF"
+      },
+      {
+        "value": "81.293.279",
+        "source": "empresa real (PETROBRAS DISTRIBUIDORA SA) — brazilian_documents (MIT, © 2016 Rafael Fidelis) — spec/documents/ie/rj_spec.rb"
+      },
+      {
+        "value": "80.495.072",
+        "source": "empresa real (Vale 1986) — brazilian_documents (MIT, © 2016 Rafael Fidelis) — spec/documents/ie/rj_spec.rb"
+      },
+      {
+        "value": "81.306.141",
+        "source": "empresa real (RAIZEN COMBUSTIVEIS S A 17/11/1977) — brazilian_documents (MIT, © 2016 Rafael Fidelis) — spec/documents/ie/rj_spec.rb"
+      },
+      {
+        "value": "81.680.469",
+        "source": "empresa real (TELEMAR NORTE LESTE S/A 1978) — brazilian_documents (MIT, © 2016 Rafael Fidelis) — spec/documents/ie/rj_spec.rb"
+      }
+    ],
+    "invalid": [
+      {
+        "value": "99999994",
+        "reason": "dígito verificador alterado (99999993)"
+      },
+      {
+        "value": "05992673",
+        "reason": "dígito verificador alterado (05992672)"
+      },
+      {
+        "value": "32586431",
+        "reason": "dígito verificador alterado (32586430)"
+      },
+      {
+        "value": "999999931",
+        "reason": "tamanho inválido"
+      },
+      {
+        "value": "9999999",
+        "reason": "tamanho inválido"
+      }
+    ]
+  },
+  "RN": {
+    "valid": [
+      {
+        "value": "20.040.040-1",
+        "source": "Sintegra — exemplo do roteiro de crítica da UF"
+      },
+      {
+        "value": "20.0.040.040-0",
+        "source": "Sintegra — exemplo do roteiro de crítica da UF"
+      },
+      {
+        "value": "20.302.450-8",
+        "source": "empresa real (PETROLEO BRASILEIRO S A PETROBRAS) — brazilian_documents (MIT, © 2016 Rafael Fidelis) — spec/documents/ie/rn_spec.rb"
+      },
+      {
+        "value": "20.055.199-0",
+        "source": "empresa real (COMPANHIA ENERGETICA DO RIO GRANDE DO NORTE COSERN) — brazilian_documents (MIT, © 2016 Rafael Fidelis) — spec/documents/ie/rn_spec.rb"
+      },
+      {
+        "value": "20.054.091-2",
+        "source": "empresa real (TELEMAR NORTE LESTE S/A) — brazilian_documents (MIT, © 2016 Rafael Fidelis) — spec/documents/ie/rn_spec.rb"
+      },
+      {
+        "value": "20.001.611-3",
+        "source": "empresa real (GUARARAPES CONFECCOES S/A) — brazilian_documents (MIT, © 2016 Rafael Fidelis) — spec/documents/ie/rn_spec.rb"
+      }
+    ],
+    "invalid": [
+      {
+        "value": "200400402",
+        "reason": "dígito verificador alterado (200400401)"
+      },
+      {
+        "value": "2000400401",
+        "reason": "dígito verificador alterado (2000400400)"
+      },
+      {
+        "value": "2005992675",
+        "reason": "dígito verificador alterado (2005992674)"
+      },
+      {
+        "value": "2004004011",
+        "reason": "tamanho inválido"
+      },
+      {
+        "value": "20040040",
+        "reason": "tamanho inválido"
+      }
+    ]
+  },
+  "RO": {
+    "valid": [
+      {
+        "value": "0000000062521-3",
+        "source": "Sintegra — exemplo do roteiro de crítica da UF"
+      },
+      {
+        "value": "101.62521-3",
+        "source": "Sintegra — exemplo do roteiro de crítica da UF"
+      },
+      {
+        "value": "0000000025563-7",
+        "source": "empresa real (CENTRAIS ELÉTRICAS DE RONDÔNIA S/A - CERON) — brazilian_documents (MIT, © 2016 Rafael Fidelis) — spec/documents/ie/ro_spec.rb"
+      },
+      {
+        "value": "0000000095268-1",
+        "source": "empresa real (COMPNACIONAL DE ABASTCONAB 1999) — brazilian_documents (MIT, © 2016 Rafael Fidelis) — spec/documents/ie/ro_spec.rb"
+      },
+      {
+        "value": "0000000033376-0",
+        "source": "empresa real (COMPANHIA NACIONAL DE ABASTECIMENTO - CONAB 1991) — brazilian_documents (MIT, © 2016 Rafael Fidelis) — spec/documents/ie/ro_spec.rb"
+      },
+      {
+        "value": "0000000002819-3",
+        "source": "empresa real (EMPRBRASCORRE TELEGRAFOS (Correios) 1969) — brazilian_documents (MIT, © 2016 Rafael Fidelis) — spec/documents/ie/ro_spec.rb"
+      }
+    ],
+    "invalid": [
+      {
+        "value": "00000000625214",
+        "reason": "dígito verificador alterado (00000000625213)"
+      },
+      {
+        "value": "101625214",
+        "reason": "dígito verificador alterado (101625213)"
+      },
+      {
+        "value": "05992674944141",
+        "reason": "dígito verificador alterado (05992674944140)"
+      },
+      {
+        "value": "000000006252131",
+        "reason": "tamanho inválido"
+      },
+      {
+        "value": "0000000062521",
+        "reason": "tamanho inválido"
+      }
+    ]
+  },
+  "RR": {
+    "valid": [
+      {
+        "value": "24006628-1",
+        "source": "Sintegra — exemplo do roteiro de crítica da UF"
+      },
+      {
+        "value": "24.001489-5",
+        "source": "empresa real (COMPANHIA ENERGETICA DE RORAIMA) — brazilian_documents (MIT, © 2016 Rafael Fidelis) — spec/documents/ie/rr_spec.rb"
+      },
+      {
+        "value": "24.006114-4",
+        "source": "empresa real (COMPANHIA DE AGUAS E ESGOTOS DE RORAIMA) — brazilian_documents (MIT, © 2016 Rafael Fidelis) — spec/documents/ie/rr_spec.rb"
+      },
+      {
+        "value": "24.010923-7",
+        "source": "empresa real (RORAIMA ADVENTURES TURISMO LTDA ME) — brazilian_documents (MIT, © 2016 Rafael Fidelis) — spec/documents/ie/rr_spec.rb"
+      },
+      {
+        "value": "24.017489-3",
+        "source": "empresa real (RORAIMA TRADING COM DE IMP E EXP LTDA ME 1987) — brazilian_documents (MIT, © 2016 Rafael Fidelis) — spec/documents/ie/rr_spec.rb"
+      }
+    ],
+    "invalid": [
+      {
+        "value": "240066282",
+        "reason": "dígito verificador alterado (240066281)"
+      },
+      {
+        "value": "240599263",
+        "reason": "dígito verificador alterado (240599262)"
+      },
+      {
+        "value": "243258644",
+        "reason": "dígito verificador alterado (243258643)"
+      },
+      {
+        "value": "2400662811",
+        "reason": "tamanho inválido"
+      },
+      {
+        "value": "24006628",
+        "reason": "tamanho inválido"
+      }
+    ]
+  },
+  "RS": {
+    "valid": [
+      {
+        "value": "224/3658792",
+        "source": "Sintegra — exemplo do roteiro de crítica da UF"
+      },
+      {
+        "value": "132/0117934",
+        "source": "empresa real (GERDAU ACOS LONGOS S/A 2005) — brazilian_documents (MIT, © 2016 Rafael Fidelis) — spec/documents/ie/rs_spec.rb"
+      },
+      {
+        "value": "008/0181198",
+        "source": "empresa real (IPIRANGA PRODUTOS DE PETROLEO S/A 2009) — brazilian_documents (MIT, © 2016 Rafael Fidelis) — spec/documents/ie/rs_spec.rb"
+      },
+      {
+        "value": "120/0082831",
+        "source": "empresa real (COPESUL COMERCIO DE MATERIAL DE CONSTRUCAO LTDA) — brazilian_documents (MIT, © 2016 Rafael Fidelis) — spec/documents/ie/rs_spec.rb"
+      },
+      {
+        "value": "024/0311698",
+        "source": "empresa real (ALBERTO PASQUALINI REFAP S/A) — brazilian_documents (MIT, © 2016 Rafael Fidelis) — spec/documents/ie/rs_spec.rb"
+      }
+    ],
+    "invalid": [
+      {
+        "value": "2243658793",
+        "reason": "dígito verificador alterado (2243658792)"
+      },
+      {
+        "value": "0599267497",
+        "reason": "dígito verificador alterado (0599267496)"
+      },
+      {
+        "value": "3258643710",
+        "reason": "dígito verificador alterado (3258643719)"
+      },
+      {
+        "value": "22436587921",
+        "reason": "tamanho inválido"
+      },
+      {
+        "value": "224365879",
+        "reason": "tamanho inválido"
+      }
+    ]
+  },
+  "SC": {
+    "valid": [
+      {
+        "value": "251.040.852",
+        "source": "Sintegra — exemplo do roteiro de crítica da UF"
+      },
+      {
+        "value": "255.926.561",
+        "source": "empresa real (BRF Brasil Food S/A) — brazilian_documents (MIT, © 2016 Rafael Fidelis) — spec/documents/ie/sc_spec.rb"
+      },
+      {
+        "value": "250.126.494",
+        "source": "empresa real (WEG SA) — brazilian_documents (MIT, © 2016 Rafael Fidelis) — spec/documents/ie/sc_spec.rb"
+      },
+      {
+        "value": "253.645.700",
+        "source": "empresa real (ENGIE BRASIL ENERGIA S.A.) — brazilian_documents (MIT, © 2016 Rafael Fidelis) — spec/documents/ie/sc_spec.rb"
+      },
+      {
+        "value": "250.166.321",
+        "source": "empresa real (Centrais Elétricas de Santa Catarina S. A. - CELESC) — brazilian_documents (MIT, © 2016 Rafael Fidelis) — spec/documents/ie/sc_spec.rb"
+      }
+    ],
+    "invalid": [
+      {
+        "value": "251040853",
+        "reason": "dígito verificador alterado (251040852)"
+      },
+      {
+        "value": "059926741",
+        "reason": "dígito verificador alterado (059926740)"
+      },
+      {
+        "value": "325864374",
+        "reason": "dígito verificador alterado (325864373)"
+      },
+      {
+        "value": "2510408521",
+        "reason": "tamanho inválido"
+      },
+      {
+        "value": "25104085",
+        "reason": "tamanho inválido"
+      }
+    ]
+  },
+  "SE": {
+    "valid": [
+      {
+        "value": "27123456-3",
+        "source": "Sintegra — exemplo do roteiro de crítica da UF"
+      },
+      {
+        "value": "27.123.456-3",
+        "source": "empresa real (Exemplo Sintegra) — brazilian_documents (MIT, © 2016 Rafael Fidelis) — spec/documents/ie/se_spec.rb"
+      },
+      {
+        "value": "27.076.743-6",
+        "source": "empresa real (ENERGISA SERGIPE - DISTRIBUIDORA DE ENERGIA S.A. 1966) — brazilian_documents (MIT, © 2016 Rafael Fidelis) — spec/documents/ie/se_spec.rb"
+      },
+      {
+        "value": "27.105.210-4",
+        "source": "empresa real (CENCOSUD BRASIL COMERCIAL LTDA G Barbosa) — brazilian_documents (MIT, © 2016 Rafael Fidelis) — spec/documents/ie/se_spec.rb"
+      },
+      {
+        "value": "27.051.036-2",
+        "source": "empresa real (COMPANHIA DE SANEAMENTO DE SERGIPE - DESO) — brazilian_documents (MIT, © 2016 Rafael Fidelis) — spec/documents/ie/se_spec.rb"
+      }
+    ],
+    "invalid": [
+      {
+        "value": "271234564",
+        "reason": "dígito verificador alterado (271234563)"
+      },
+      {
+        "value": "059926741",
+        "reason": "dígito verificador alterado (059926740)"
+      },
+      {
+        "value": "325864374",
+        "reason": "dígito verificador alterado (325864373)"
+      },
+      {
+        "value": "2712345631",
+        "reason": "tamanho inválido"
+      },
+      {
+        "value": "27123456",
+        "reason": "tamanho inválido"
+      }
+    ]
+  },
+  "SP": {
+    "valid": [
+      {
+        "value": "110.042.490.114",
+        "source": "Sintegra — exemplo do roteiro de crítica da UF"
+      },
+      {
+        "value": "P-01100424.3/002",
+        "source": "Sintegra — exemplo do roteiro de crítica da UF"
+      },
+      {
+        "value": "102.614.327.119",
+        "source": "empresa real (COMPANHIA ULTRAGAZ S/A) — brazilian_documents (MIT, © 2016 Rafael Fidelis) — spec/documents/ie/sp_spec.rb"
+      },
+      {
+        "value": "104.871.489.118",
+        "source": "empresa real (CARGILL AGRICOLA S A 1965) — brazilian_documents (MIT, © 2016 Rafael Fidelis) — spec/documents/ie/sp_spec.rb"
+      },
+      {
+        "value": "104.120.688.115",
+        "source": "empresa real (COMPANHIA BRASILEIRA DE DISTRIBUICAO | Pão de açucar) — brazilian_documents (MIT, © 2016 Rafael Fidelis) — spec/documents/ie/sp_spec.rb"
+      },
+      {
+        "value": "109.184.763.118",
+        "source": "empresa real (COMPANHIA BRASILEIRA DE DISTRIBUICAO | Pão de açucar) — brazilian_documents (MIT, © 2016 Rafael Fidelis) — spec/documents/ie/sp_spec.rb"
+      }
+    ],
+    "invalid": [
+      {
+        "value": "110042490115",
+        "reason": "dígito verificador alterado (110042490114)"
+      },
+      {
+        "value": "P011004244002",
+        "reason": "dígito verificador alterado (P011004243002)"
+      },
+      {
+        "value": "P005992670494",
+        "reason": "dígito verificador alterado (P005992679494)"
+      },
+      {
+        "value": "1100424901141",
+        "reason": "tamanho inválido"
+      },
+      {
+        "value": "11004249011",
+        "reason": "tamanho inválido"
+      }
+    ]
+  },
+  "TO": {
+    "valid": [
+      {
+        "value": "29.01.022783-6",
+        "source": "Sintegra — exemplo do roteiro de crítica da UF"
+      },
+      {
+        "value": "29.022.783-6",
+        "source": "empresa real (Exemplo Sintegra) — brazilian_documents (MIT, © 2016 Rafael Fidelis) — spec/documents/ie/to_spec.rb"
+      },
+      {
+        "value": "29.031.998-6",
+        "source": "empresa real (ENERGISA TOCANTINS DISTRIBUIDORA DE ENERGIA S/A) — brazilian_documents (MIT, © 2016 Rafael Fidelis) — spec/documents/ie/to_spec.rb"
+      },
+      {
+        "value": "29.031.448-8",
+        "source": "empresa real (COMPANHIA DE SANEAMENTO DO TOCANTINS-SANEATINS) — brazilian_documents (MIT, © 2016 Rafael Fidelis) — spec/documents/ie/to_spec.rb"
+      },
+      {
+        "value": "29.068.567-2",
+        "source": "empresa real (MINASCOM COMERCIAL LTDA) — brazilian_documents (MIT, © 2016 Rafael Fidelis) — spec/documents/ie/to_spec.rb"
+      }
+    ],
+    "invalid": [
+      {
+        "value": "29010227837",
+        "reason": "dígito verificador alterado (29010227836)"
+      },
+      {
+        "value": "29010599262",
+        "reason": "dígito verificador alterado (29010599261)"
+      },
+      {
+        "value": "29023258644",
+        "reason": "dígito verificador alterado (29023258643)"
+      },
+      {
+        "value": "290102278361",
+        "reason": "tamanho inválido"
+      },
+      {
+        "value": "2901022783",
+        "reason": "tamanho inválido"
+      }
+    ]
+  }
+}
