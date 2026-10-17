@@ -1,6 +1,6 @@
 # doc-guard
 
-[![CI](https://github.com/MaatheusPolli/doc-guard/actions/workflows/ci.yml/badge.svg)](https://github.com/MaatheusPolli/doc-guard/actions/workflows/ci.yml)
+[![CI](https://github.com/MaatheusPolli/doc-guard/actions/workflows/ci.yml/badge.svg?branch=master)](https://github.com/MaatheusPolli/doc-guard/actions/workflows/ci.yml)
 [![Licença: MIT pessoal + comercial](https://img.shields.io/badge/licen%C3%A7a-MIT%20pessoal%20%2B%20comercial-blue.svg)](LICENSE)
 
 Validação, formatação e geração de documentos brasileiros em TypeScript:
