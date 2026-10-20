@@ -34,3 +34,6 @@ logs/
 # Ignorar OS
 .DS_Store
 Thumbs.db
+
+# Relatório de cobertura gerado
+coverage/
