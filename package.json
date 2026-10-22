@@ -94,6 +94,7 @@
     "coverage": "vitest run --coverage",
     "bench": "vitest bench --run",
     "changeset": "changeset",
+    "version": "changeset version && prettier --write CHANGELOG.md package.json",
     "prepublishOnly": "npm run build",
     "prepare": "tsup"
   },

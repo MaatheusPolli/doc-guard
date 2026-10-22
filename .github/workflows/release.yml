@@ -24,10 +24,15 @@ jobs:
           cache: npm
           registry-url: https://registry.npmjs.org
       - run: npm ci
+      - run: npm run lint
+      - run: npm run format:check
+      - run: npm run typecheck
+      - run: npm test
+      - run: npm run build
       - run: npm install -g npm@latest
       - uses: changesets/action@v1
         with:
-          version: npx changeset version
+          version: npm run version
           publish: npx changeset publish
           commit: 'chore: versiona pacotes'
           title: 'chore: versiona pacotes'

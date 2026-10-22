@@ -1,5 +1,6 @@
 # doc-guard
 
+[![npm](https://img.shields.io/npm/v/@matheuspolli/doc-guard.svg)](https://www.npmjs.com/package/@matheuspolli/doc-guard)
 [![CI](https://github.com/MaatheusPolli/doc-guard/actions/workflows/ci.yml/badge.svg?branch=master)](https://github.com/MaatheusPolli/doc-guard/actions/workflows/ci.yml)
 [![Licença: MIT pessoal + comercial](https://img.shields.io/badge/licen%C3%A7a-MIT%20pessoal%20%2B%20comercial-blue.svg)](LICENSE)
 
@@ -99,7 +100,7 @@ Implementações que fazem `value.replace(/\D/g, '')` antes de validar **quebram
 | MA  | 9          | `##.###.###-#`                         | prefixo 12                           |
 | MG  | 13         | `###.###.###/####`                     | 2 DVs (soma de algarismos + mód. 11) |
 | MS  | 9          | `##.###.###-#`                         | prefixo 28/50                        |
-| MT  | 9 a 11     | `##.###.###-#` / `##########-#`        | completa com zeros à esquerda        |
+| MT  | 9 a 11     | `##.###.###-#` … `##########-#`        | completa com zeros à esquerda        |
 | PA  | 9          | `##-######-#`                          | prefixo 15, 75–79                    |
 | PB  | 9          | `########-#`                           |                                      |
 | PE  | 9 ou 14    | `#######-##` / `##.#.###.#######-#`    | eFisco e CACEPE antigo               |
@@ -193,11 +194,10 @@ arquivo, auditável contra o roteiro oficial; zero dependências de runtime.
 
 ## Status
 
-Implementado e testado (37 arquivos de teste passando).
-
-Pendências conhecidas:
-
-- garantir `prettier --check` limpo e CI verde no primeiro push
+Publicado no npm. 37 arquivos de teste (1.000+ casos) passando, CI verde em Node 20, 22 e 24.
+Releases são feitos por [changesets](https://github.com/changesets/changesets): um push na
+`master` com um arquivo em `.changeset/` abre o PR de versão, e o merge publica no npm com
+provenance.
 
 ## Licença
 

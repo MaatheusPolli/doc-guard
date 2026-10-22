@@ -1,7 +1,8 @@
 /**
  * doc-guard — validação, formatação e geração de documentos brasileiros.
  *
- * Para bundles menores importe por documento: `doc-guard/cpf`, `doc-guard/cnpj`, `doc-guard/ie`.
+ * Para bundles menores importe por documento: `@matheuspolli/doc-guard/cpf`,
+ * `@matheuspolli/doc-guard/cnpj`, `@matheuspolli/doc-guard/ie`.
  */
 export * as cpf from './cpf';
 export * as cnpj from './cnpj';

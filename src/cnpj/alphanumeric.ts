@@ -13,11 +13,13 @@ export const WEIGHTS_1 = [5, 4, 3, 2, 9, 8, 7, 6, 5, 4, 3, 2] as const;
 export const WEIGHTS_2 = [6, 5, 4, 3, 2, 9, 8, 7, 6, 5, 4, 3, 2] as const;
 
 /**
- * Converte um caractere [0-9A-Z] no valor usado no cálculo (ASCII − 48).
+ * Converte um caractere [0-9A-Za-z] no valor usado no cálculo (ASCII − 48).
+ * Minúsculas são normalizadas, como em `computeCheckDigits`.
  * @example charValue('A') // 17
+ * @example charValue('a') // 17
  */
 export function charValue(char: string): number {
-  return char.charCodeAt(0) - 48;
+  return char.toUpperCase().charCodeAt(0) - 48;
 }
 
 function dv(values: number[], weights: readonly number[]): number {
@@ -30,7 +32,7 @@ function dv(values: number[], weights: readonly number[]): number {
  * @example computeCheckDigits('12ABC34501DE') // '35'
  */
 export function computeCheckDigits(base: string): string {
-  const values = Array.from(base.toUpperCase(), charValue);
+  const values = Array.from(base, charValue);
   const dv1 = dv(values, WEIGHTS_1);
   const dv2 = dv([...values, dv1], WEIGHTS_2);
   return `${dv1}${dv2}`;

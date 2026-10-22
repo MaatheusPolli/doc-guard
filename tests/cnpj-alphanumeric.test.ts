@@ -42,6 +42,12 @@ describe('CNPJ alfanumérico', () => {
     expect(cnpj.charValue('A')).toBe(17);
     expect(cnpj.charValue('Z')).toBe(42);
   });
+  it('charValue normaliza minúsculas', () => {
+    expect(cnpj.charValue('a')).toBe(cnpj.charValue('A'));
+    expect(cnpj.charValue('z')).toBe(cnpj.charValue('Z'));
+  });
+  it('computeCheckDigits aceita base em minúsculas', () =>
+    expect(cnpj.computeCheckDigits('12abc34501de')).toBe(cnpj.computeCheckDigits('12ABC34501DE')));
   it('isAlphanumeric', () => {
     expect(cnpj.isAlphanumeric('12ABC34501DE35')).toBe(true);
     expect(cnpj.isAlphanumeric('11222333000181')).toBe(false);

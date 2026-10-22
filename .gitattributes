@@ -1,0 +1,9 @@
+# Normaliza o fim de linha: LF no repositório e no working tree de todas as
+# plataformas, para que prettier, eslint e os testes se comportem igual no
+# Windows, no macOS e no Linux.
+* text=auto eol=lf
+
+# Arquivos binários: nunca converter.
+*.png binary
+*.jpg binary
+*.ico binary
