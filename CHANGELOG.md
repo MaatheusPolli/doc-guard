@@ -2,6 +2,12 @@
 
 Histórico de versões gerado pelo [changesets](https://github.com/changesets/changesets).
 
+## 0.1.3
+
+### Patch Changes
+
+- 007efa4: Corrige `cnpj.charValue`, que devolvia valores errados para letras minúsculas (`charValue('a')` dava 49 em vez de 17). Agora normaliza a caixa, igual ao que `computeCheckDigits` já fazia internamente.
+
 ## 0.1.2
 
 ### Patch Changes
