@@ -2,6 +2,12 @@
 
 Histórico de versões gerado pelo [changesets](https://github.com/changesets/changesets).
 
+## 0.1.2
+
+### Patch Changes
+
+- 7de0179: Valida o fluxo de release automatizado com changesets. Sem mudanças de código.
+
 ## 0.1.1
 
 ### Patch Changes
