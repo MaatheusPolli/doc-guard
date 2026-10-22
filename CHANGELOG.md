@@ -2,6 +2,13 @@
 
 Histórico de versões gerado pelo [changesets](https://github.com/changesets/changesets).
 
+## 0.1.1
+
+### Patch Changes
+
+- Amplia as keywords do `package.json` para facilitar a busca no npm.
+- Publicação do pacote passa a ser feita pelo GitHub Actions, com provenance, ao enviar uma tag `v*`.
+
 ## 0.1.0
 
 ### Minor Changes
