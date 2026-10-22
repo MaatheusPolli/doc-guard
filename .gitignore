@@ -37,3 +37,6 @@ Thumbs.db
 
 # Relatório de cobertura gerado
 coverage/
+
+# Resultado do benchmark (gerado por npm run bench)
+benchmarks/results/

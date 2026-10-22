@@ -10,7 +10,10 @@ jobs:
     runs-on: ubuntu-latest
     strategy:
       matrix:
-        node: [20, 22, 24]
+        # O vitest 5 exige Node ^22.12 || ^24 || >=26, então a suíte roda só
+        # nessas versões. O suporte a Node 18 e 20 prometido por `engines` é
+        # verificado pelo job `compat`.
+        node: [22, 24]
     steps:
       - uses: actions/checkout@v4
       - uses: actions/setup-node@v4
@@ -23,3 +26,28 @@ jobs:
       - run: npm run typecheck
       - run: npm run coverage
       - run: npm run build
+      - uses: actions/upload-artifact@v4
+        if: matrix.node == 22
+        with:
+          name: dist
+          path: dist
+          retention-days: 1
+
+  # Carrega o pacote construído nas versões de Node que `engines` promete.
+  # Não instala dependências: a biblioteca não tem nenhuma em runtime.
+  compat:
+    runs-on: ubuntu-latest
+    needs: test
+    strategy:
+      matrix:
+        node: [18, 20]
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: ${{ matrix.node }}
+      - uses: actions/download-artifact@v4
+        with:
+          name: dist
+          path: dist
+      - run: node scripts/smoke.mjs

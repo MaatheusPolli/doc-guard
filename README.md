@@ -161,16 +161,22 @@ algoritmo oficial, não da biblioteca — e está documentado nos testes.
 
 ## Desenvolvimento
 
+A biblioteca roda em Node 18+, mas as ferramentas de desenvolvimento exigem
+**Node 22.12 ou superior** (requisito do vitest 5).
+
 ```bash
 npm install
 npm test          # testes
 npm run coverage  # cobertura (mínimo 95%)
-npm run bench     # benchmark
+npm run bench     # benchmark; imprime a tabela de validações/s
 npm run build     # ESM + CJS + .d.ts
 npm run lint      # ESLint
 npm run typecheck # tsc --noEmit
 npm run changeset # descreve uma mudança para o próximo release
 ```
+
+`scripts/smoke.mjs` carrega o `dist` e confere as APIs principais sem instalar
+dependências; o CI o usa para validar o suporte a Node 18 e 20.
 
 ## Estrutura
 
@@ -186,7 +192,8 @@ src/
  ├── detect.ts
  └── index.ts
 tests/           testes unitários, por UF, tabela de fixtures e property-based
-benchmarks/      benchmark de validação
+benchmarks/      benchmark de validação e relatório (report.mjs)
+scripts/         smoke test do pacote construído
 ```
 
 Princípios: funções puras, sem estado global; `validate` nunca lança; uma regra de IE por
@@ -194,7 +201,8 @@ arquivo, auditável contra o roteiro oficial; zero dependências de runtime.
 
 ## Status
 
-Publicado no npm. 37 arquivos de teste (1.000+ casos) passando, CI verde em Node 20, 22 e 24.
+Publicado no npm. 37 arquivos de teste (1.000+ casos) passando, CI verde em Node 22 e 24,
+com o pacote construído também verificado em Node 18 e 20.
 Releases são feitos por [changesets](https://github.com/changesets/changesets): um push na
 `master` com um arquivo em `.changeset/` abre o PR de versão, e o merge publica no npm com
 provenance.
