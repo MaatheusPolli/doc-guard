@@ -31,6 +31,7 @@ jobs:
       - run: npm run build
       - run: npm install -g npm@latest
       - uses: changesets/action@v1
+        id: changesets
         with:
           version: npm run version
           publish: npx changeset publish
@@ -39,3 +40,21 @@ jobs:
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           NPM_CONFIG_PROVENANCE: 'true'
+
+      # A tag criada pelo `changeset publish` não chegava ao repositório: as
+      # v0.1.1, v0.1.2 e v0.1.3 tiveram de ser criadas à mão. Aqui ela é
+      # enviada explicitamente, e só quando houve publicação de fato.
+      - name: Envia a tag da versão publicada
+        if: steps.changesets.outputs.published == 'true'
+        run: |
+          set -euo pipefail
+          tag="v$(node -p "require('./package.json').version")"
+          if git rev-parse -q --verify "refs/tags/$tag" >/dev/null; then
+            echo "Tag $tag já existe localmente (criada pelo changesets)."
+          else
+            git config user.name 'github-actions[bot]'
+            git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+            git tag -a "$tag" -m "$tag"
+          fi
+          git push origin "refs/tags/$tag"
+          echo "Tag $tag enviada."
