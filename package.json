@@ -1,6 +1,6 @@
 {
   "name": "@matheuspolli/doc-guard",
-  "version": "0.1.3",
+  "version": "0.1.4",
   "description": "Validação, formatação e geração de documentos brasileiros: CPF, CNPJ (inclusive alfanumérico 2026) e Inscrição Estadual das 27 UFs.",
   "keywords": [
     "cpf",
