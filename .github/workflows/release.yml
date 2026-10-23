@@ -41,20 +41,33 @@ jobs:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           NPM_CONFIG_PROVENANCE: 'true'
 
-      # A tag criada pelo `changeset publish` não chegava ao repositório: as
-      # v0.1.1, v0.1.2 e v0.1.3 tiveram de ser criadas à mão. Aqui ela é
-      # enviada explicitamente, e só quando houve publicação de fato.
+      # A tag criada pelo `changeset publish` não chega ao repositório: as
+      # v0.1.1 a v0.1.4 tiveram de ser criadas à mão. Este passo a envia.
+      #
+      # Não usa `steps.changesets.outputs.published`: na publicação da 0.1.4 a
+      # action publicou com sucesso e ainda assim esse output não veio como
+      # 'true', o que fez o passo ser pulado. Em vez disso, compara o estado
+      # real — a versão do package.json contra as tags do remoto e o npm — o
+      # que também torna o passo idempotente e seguro de reexecutar.
       - name: Envia a tag da versão publicada
-        if: steps.changesets.outputs.published == 'true'
         run: |
           set -euo pipefail
-          tag="v$(node -p "require('./package.json').version")"
-          if git rev-parse -q --verify "refs/tags/$tag" >/dev/null; then
-            echo "Tag $tag já existe localmente (criada pelo changesets)."
-          else
-            git config user.name 'github-actions[bot]'
-            git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
-            git tag -a "$tag" -m "$tag"
+          name=$(node -p "require('./package.json').name")
+          version=$(node -p "require('./package.json').version")
+          tag="v$version"
+
+          if git ls-remote --exit-code --tags origin "refs/tags/$tag" >/dev/null 2>&1; then
+            echo "Tag $tag já existe no remoto; nada a fazer."
+            exit 0
           fi
+
+          if ! npm view "$name@$version" version >/dev/null 2>&1; then
+            echo "$name@$version ainda não está no npm; a tag sai na execução que publicar."
+            exit 0
+          fi
+
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git tag -a "$tag" -m "$tag"
           git push origin "refs/tags/$tag"
           echo "Tag $tag enviada."
