@@ -8,10 +8,11 @@ Validação, formatação e geração de documentos brasileiros em TypeScript:
 **CPF**, **CNPJ** (inclusive o novo **CNPJ alfanumérico** de 2026) e **Inscrição Estadual das 27 UFs**.
 
 - Zero dependências de runtime, ESM + CJS + `.d.ts`, Node e browser.
-- Tree-shakeable: `@matheuspolli/doc-guard/cpf` sozinho tem **< 1 KB gzip**.
+- Tree-shakeable: `@matheuspolli/doc-guard/cpf` sozinho fica em **~1,5 KB gzip**; o pacote
+  inteiro, em ~5 KB.
 - `validate` aceita valores com ou sem máscara e nunca lança; `assertValid` lança `InvalidDocumentError`.
 - `generate` com `seed` para massa de teste reprodutível.
-- 1.000+ testes: exemplos oficiais do Sintegra, IEs de 250 empresas reais, property-based com fast-check e 100% das linhas cobertas.
+- 1.000+ testes: exemplos oficiais do Sintegra, 239 IEs de empresas reais, property-based com fast-check e 100% das linhas cobertas.
 
 ## Instalação
 
@@ -76,11 +77,12 @@ try {
 
 ## CNPJ alfanumérico (2026)
 
-A partir de julho de 2026 (IN RFB nº 2.229/2024), as 12 primeiras posições do CNPJ
-passam a aceitar letras `A–Z`. Os dois dígitos verificadores continuam numéricos e são
-calculados pelo mesmo módulo 11, mas cada caractere vale **código ASCII − 48**
-(`0–9` → 0–9, `A` → 17, …, `Z` → 42). Por isso o cálculo é retrocompatível: para bases
-numéricas o resultado é idêntico ao algoritmo clássico — e o doc-guard testa isso.
+A IN RFB nº 2.229/2024 definiu o formato alfanumérico do CNPJ, com adoção prevista
+para 31/07/2026: as 12 primeiras posições passam a aceitar letras `A–Z`. Os dois
+dígitos verificadores continuam numéricos e são calculados pelo mesmo módulo 11, mas
+cada caractere vale **código ASCII − 48** (`0–9` → 0–9, `A` → 17, …, `Z` → 42). Por
+isso o cálculo é retrocompatível: para bases numéricas o resultado é idêntico ao
+algoritmo clássico — e o doc-guard testa isso.
 
 Implementações que fazem `value.replace(/\D/g, '')` antes de validar **quebram** com o novo formato.
 
@@ -122,7 +124,7 @@ As regras são testadas contra duas bases:
 
 - `tests/fixtures/ie-samples.json`: exemplos oficiais dos roteiros do Sintegra e IEs reais, com a
   origem de cada valor registrada, além de casos inválidos (DV alterado, tamanho errado).
-- `tests/fixtures/ie-real.json`: 250 IEs de empresas reais das 27 UFs, compiladas pelo projeto
+- `tests/fixtures/ie-real.json`: 239 IEs de empresas reais das 27 UFs, compiladas pelo projeto
   [brazilian_documents](https://github.com/fidelisrafael/brazilian_documents) (MIT, © 2016 Rafael Fidelis).
 
 > **Ambiguidade:** alguns tamanhos coincidem (ex.: 11 dígitos = CPF ou IE de MT/TO).
