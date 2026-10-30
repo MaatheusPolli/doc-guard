@@ -40,3 +40,6 @@ coverage/
 
 # Resultado do benchmark (gerado por npm run bench)
 benchmarks/results/
+
+# Rascunhos de posts do LinkedIn (não versionar)
+linkedin/
