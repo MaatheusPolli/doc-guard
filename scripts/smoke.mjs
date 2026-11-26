@@ -1,7 +1,5 @@
-// Verifica que o pacote construído carrega e funciona nas versões de Node que
-// o campo `engines` promete, sem instalar nada: a biblioteca não tem
-// dependências de runtime. O vitest exige Node 22.12+, então as versões
-// antigas são cobertas por este teste de fumaça em vez da suíte completa.
+// Verifica que o pacote construído carrega e funciona sem instalar dependências,
+// pois a biblioteca não tem dependências de runtime.
 import { createRequire } from 'node:module';
 
 const require = createRequire(import.meta.url);
