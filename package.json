@@ -81,7 +81,10 @@
     "dist"
   ],
   "engines": {
-    "node": ">=18"
+    "node": ">=22.12"
+  },
+  "overrides": {
+    "esbuild": "^0.28.1"
   },
   "scripts": {
     "build": "tsup",
