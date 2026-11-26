@@ -2,6 +2,12 @@
 
 Histórico de versões gerado pelo [changesets](https://github.com/changesets/changesets).
 
+## 1.0.0
+
+### Major Changes
+
+- 5c09a64: Requer Node.js 22.12 ou superior. O suporte declarado a Node 18 e 20 foi removido.
+
 ## 0.1.4
 
 ### Patch Changes
