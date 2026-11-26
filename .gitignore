@@ -43,3 +43,7 @@ benchmarks/results/
 
 # Rascunhos de posts do LinkedIn (não versionar)
 linkedin/
+docs/post-linkedin.md
+
+# Cache local do npm (não versionar)
+.npm-cache/
